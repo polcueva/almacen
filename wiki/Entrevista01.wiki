@@ -1,4 +1,3 @@
-
 = Introduction =
 
 Bla bla bla, probando probando 1 2 3
@@ -6,7 +5,4 @@ Bla bla bla, probando probando 1 2 3
 
 = Details =
 
-Add your content here.  Format your content with:
-  * *bold* que pasa canijo 
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+*Que pasa canijo*
