@@ -1,17 +1,20 @@
 #labels Area-ModeladoNegocio
 *¿En que consiste el negocio?*
+
 Venta de pinturas al por menor.
 
 Aplicación de pinturas.
 
 
 *¿En que consiste la actividad normal?*
+
 Suministra pinturas al publico.
 
 Una plantilla de trabajadores, hacer frente a encargos de empresas. (Pintar edificios, etc)
 
 
 *¿Como se desarrolla el proceso del pedido?*
+
 De cara al publico, se comprueba el stock del producto en concreto, en caso de disponer de stock, se realiza el cambio en el inventario. Y en caso contrario, se realizararia un pedido al almacen propio.
 
 Es necesario tener un stock minino de seguridad, que en el momento de que salte la alarma sobre minimos, realizara una peticion al proveedor.
@@ -20,6 +23,7 @@ En caso de no disponer de suficiente cantidad de pinturas en el almacen, debido 
 
 
 *¿Cuales son los procesos de negocio?*
+
 Gestion de compra. De la tienda a los proveedores, negociando los precios.
 
 
@@ -27,22 +31,27 @@ Gestion de venta, tanto al particular como al privado (encargos de pinturas)
 
 
 *¿Cuales son los objetivos de negocio?*
+
 Marcar un plan de ventas que cubra los gastos del negocios, y además, aporte un beneficio.
 
 
 *¿Sobre que deben informar los empleados? (gastos por kilometraje, dietas, comidas con clientes, otros gastos).*
+
 Informar (y justificar) litros de gasolina debido a desplazamientos, kilometros recorridos y dietas.
 
 
 *¿Como se lleva la gestión del inventario?*
+
 En un libro, se hace inventario sobre el stock disponible, recogiendo las entradas y salidas tanto del almacen, como de la tienda.
 
 
 *¿Que criterio se usa para clasificar los productos en el almacén?*
+
 Según la demanda que tenga, los productos estaran colocados cerca de la entrada, y se dispondra de mayor cantidad, de productos comunes como “pintura blanca”, colocando mas alejado de la entrada, productos de menor venta, (por ejemplo, colores exoticos o de agatha ruiz de la prada).
 
 
 *¿Como se realizan las distintas formas de pago?*
+
 En metalico o con tarjeta para la venta al menor.
 
 Y para la venta al mayor,se negocian formas de pago, a 30, 60 o 90 dias.
@@ -51,23 +60,29 @@ Descuentos por pago al contado a clientes importantes.
 
 
 *¿Existen descuentos según el tipo de pedido o pago?*
+
 Al menor, descuento del 5% por una compra superior 100 €
 
 Al mayor, lo dicho anteriormente
 
 
 *Gastos de mantenimiento de vehículos.*
+
 De esto no se encargaria este sofware.
 
 
 
 *¿Como se afronta la petición de un pedido (a los proveedores)?*
+
+
 Se comunicaria con la empresa suminstradora, y se acordaria un numero fijo sobre compras, para que ademas la fabrica haga sus previsiones, y en base a eso, intentar conseguir un descuento.
 
 
 *¿Quien aporta al proveedor?*
+
 Esta pregunta, estaria fuera del alcance de este software, por lo que no es necesario responderla.
 
 
 *¿Como está compuesta la empresa?*
+
 Idem. 
