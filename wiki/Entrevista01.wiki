@@ -1,5 +1,5 @@
 #labels Area-ModeladoNegocio
-¿En que consiste el negocio?
+*¿En que consiste el negocio?*
 
 Venta de pinturas al por menor.
 
