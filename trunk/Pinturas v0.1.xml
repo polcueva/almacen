@@ -53,7 +53,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Hola</rem:text>
+<rem:text>El presente documento muestra ejemplo de ingeniería de requisitos aplicada a la informatización de una  tienda de pinturas.<br/>El objetivo es ilustrar cada uno de los elementos que debe contener el documento de requisitos del sistema.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
