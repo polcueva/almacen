@@ -167,7 +167,7 @@ Francisco Segura Martín</rem:name>
 <rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:stakeholderRole>Usuario</rem:stakeholderRole>
 <rem:isUser/>
 <rem:worksFor organization = "ORG-0002"/>
 </rem:stakeholder>
