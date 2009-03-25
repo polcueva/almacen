@@ -405,6 +405,244 @@ Glosario</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>7 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0003">
+<rem:name>
+<rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0004">
+<rem:name>
+<rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0005">
+<rem:name>
+<rem:ref oid="GLO-0005">Nómina</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Relación nominal de los individuos que en una oficina pública o particular han de percibir haberes y justificar con su firma haberlos recibido</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0006">
+<rem:name>
+<rem:ref oid="GLO-0006">Libro de control</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cuaderno donde se apuntan los ingresos / gastos que tienen lugar para llevar un mejor control de la gestión de las finanzas de la empresa</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0007">
+<rem:name>
+<rem:ref oid="GLO-0007">Stock</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cantidad de mercancías que se tienen en depósito o almacén</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0008">
+<rem:name>
+<rem:ref oid="GLO-0008">Cartera de clientes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es tener en ficha a todas las personas que alguna vez les hemos vendido algo y hacer que nos mantenga en contacto mutuo. La mayor ventaja es que los clientes en cartera no nos dan trabajo, lo que nos permite tener centenares, incluso millares de clientes en cartera</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0009">
+<rem:name>
+<rem:ref oid="GLO-0009">Pinturas Plasticas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Estas pinturas están compuestas por una resina sintética (vinílica o acrílica) que se haya emulsionada en agua. Son las mas indicadas para el pintado de nuestras paredes,. Para su dilución emplearemos agua, así como para la limpieza de los utensilios. Son inodoras y secan rápidamente, las podemos encontrar en acabado mate, satinado o brillante, siendo las de calidad perfectamente lavables</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0010">
+<rem:name>
+<rem:ref oid="GLO-0010">Pinturas grasas y óleo sintéticas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Compuestas de resina, incorporan una cantidad de aceite, generalmente de linaza. Su secado es mas lento que el de las sintéticas (10-15 horas), siendo su dureza y brillo de calidad inferior. Son lavables</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0011">
+<rem:name>
+<rem:ref oid="GLO-0011">P/F</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Representa un <rem:ref oid="GLO-0003">presupuesto</rem:ref> que tiene tambien funcion de <rem:ref oid="GLO-0004">factura</rem:ref></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0012">
+<rem:name>
+<rem:ref oid="GLO-0012">Barniz</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Disolución de una o más sustancias resinosas en un líquido que al aire se volatiliza o se deseca. Con ella se da a las pinturas, maderas y otras cosas, con objeto de preservarlas de la acción de la atmósfera, del polvo, etc., y para que adquieran lustre</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0013">
+<rem:name>
+<rem:ref oid="GLO-0013">Pinturas de clorocaucho</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Están compuestas por una base de resina de caucho tratada químicamente con cloro, consiguiendo una gran resistencia al agua y a sustancias agresivas como los ácidos. Se utilizan para el pintado de instalaciones industriales y deportivas, así como para piscinas. Su secado es rápido y su dilución y limpieza es a base de disolvente</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0014">
+<rem:name>
+<rem:ref oid="GLO-0014">Esmaltes sintéticos</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Formulados a base de resinas alquímicas, precisan de disolvente para diluirlas y para su limpieza. Secan entre 5 y 10 horas, siendo su acabado duro, resistente y lavable. Se fabrican en acabados brillantes para el exterior y satinado y mate para interiores</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0015">
+<rem:name>
+<rem:ref oid="GLO-0015">Esmaltes al agua</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Se caracterizan por llevar agua como disolvente, dando al mismo tiempo un alto brillo. En la actualidad las resinas mas utilizadas para su fabricación son acrílicas en emulsión, por lo que también se las llama esmaltes acrílicos al agua. Destacar su color de gran permanencia así como la facilidad de limpieza de los utensilios de trabajo con agua</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0016">
+<rem:name>
+<rem:ref oid="GLO-0016">Pintura impermeabilizante</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una pintura especial para zonas de la casa que anteriormente estuvieron afectadas por la humedad. Eso sí, sólo deberemos usarla después de haber tratado la humedad en la pared. Si no la pintura acabará desprendiéndose o agrietándose tarde o temprano</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
