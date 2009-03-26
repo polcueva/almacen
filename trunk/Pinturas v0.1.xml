@@ -274,7 +274,7 @@ Ninguno</rem:comments>
 <rem:stakeholder
  oid = "STK-0006">
 <rem:name>
-Luís Toro Japón</rem:name>
+Luis Toro Japón</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -400,7 +400,7 @@ Glosario</rem:name>
 <rem:day>24</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
@@ -421,6 +421,23 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Disolución de una o más sustancias resinosas en un líquido que al aire se volatiliza o se deseca. Con ella se da a las pinturas, maderas y otras cosas, con objeto de preservarlas de la acción de la atmósfera, del polvo, etc., y para que adquieran lustre</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0018">
+<rem:name>
+<rem:ref oid="GLO-0018">Brocha</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Instrumento de pintura de fachadas utilizado para superficies más reducidas y acabados más precisos que el <rem:ref oid="GLO-0017">rodillo</rem:ref> <br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0008">
@@ -625,6 +642,40 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0019">
+<rem:name>
+<rem:ref oid="GLO-0019">Raspador</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Herramienta utlizada para el tratamiento de la fachada previa a la pintura para elminar sustancias indeseadas en la pared como el musgo.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0017">
+<rem:name>
+<rem:ref oid="GLO-0017">Rodillo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Herramienta utllizada para pintar superficies largas de fachadas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0007">
