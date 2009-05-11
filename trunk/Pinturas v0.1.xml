@@ -327,7 +327,7 @@ El proceso básico de negocio</rem:name>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>Jajejijoju<br/></rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0012">
@@ -651,30 +651,54 @@ Información sobre empleados</rem:name>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0004"/>
 <rem:relevantConcept>
 sobre los empleados de la empresa</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>2</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>5</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0002">
+<rem:description>
+Nombre</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0003">
+<rem:description>
+DNI</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0004">
+<rem:description>
+Direccion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0005">
+<rem:description>
+Telefono</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0006">
+<rem:description>
+E-mail</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0002">
@@ -689,32 +713,58 @@ Información sobre clientes</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
 sobre información de los clientes</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>10</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>50</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0007">
+<rem:description>
+Nombre</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0008">
+<rem:description>
+Telefono</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0009">
+<rem:description>
+Direccion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0010">
+<rem:description>
+E-mail</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0011">
+<rem:description>
+Pedido</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0003">
@@ -729,32 +779,52 @@ Información sobre productos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
 sobre los productos de la empresa</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>50</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>100</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0012">
+<rem:description>
+Tipo de pintura</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0013">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0014">
+<rem:description>
+Color</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0015">
+<rem:description>
+Marca</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0004">
@@ -769,32 +839,52 @@ Información sobre pedidos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
 sobre los pedidos de la empresa</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>2</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>2</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>5</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0016">
+<rem:description>
+Nombre del cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0017">
+<rem:description>
+Productos solicitados</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0018">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0019">
+<rem:description>
+Precio total</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0005">
@@ -809,32 +899,64 @@ Información sobre proveedores</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0004"/>
 <rem:relevantConcept>
 sobre los proveedores de la empresa</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>3</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>5</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0020">
+<rem:description>
+Nombre</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0021">
+<rem:description>
+Telefono de contacto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0022">
+<rem:description>
+CIF</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0023">
+<rem:description>
+E-mail</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0024">
+<rem:description>
+Direccion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0025">
+<rem:description>
+Numero de cuenta corriente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0006">
@@ -849,32 +971,64 @@ Información sobre presupuestos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
 sobre los presupuestos generados</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>4</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>30</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0026">
+<rem:description>
+Cliente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0027">
+<rem:description>
+Lugar a pintar</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0028">
+<rem:description>
+Superficie</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0029">
+<rem:description>
+Tipo de pintura</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0030">
+<rem:description>
+Cantidad necesaria</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0031">
+<rem:description>
+Precio</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 <rem:informationRequirement
  oid = "IRQ-0007">
@@ -889,32 +1043,52 @@ Información sobre facturas</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
 sobre las facturas entregadas</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>10</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>100</rem:value>
 </rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0032">
+<rem:description>
+Fecha</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0033">
+<rem:description>
+Nombre</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0034">
+<rem:description>
+Procucto(s)</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0035">
+<rem:description>
+Precio</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 </rem:informationRequirement>
 </rem:section>
 <rem:section
@@ -952,6 +1126,46 @@ Diagramas de casos de uso</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>5.2.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0005">
+<rem:name>
+Diagrama de subsistemas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagrama de subsistemas.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0006">
+<rem:name>
+Diagrama de casos de usos del subsistema <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagrama_presupuesto.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0021">
@@ -970,6 +1184,63 @@ Definición de actores</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>5.2.2 </rem:number>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+Empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>al empleado de la tienda</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>a los clientes del negocio</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+Proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>a la empresa que se dedica a suministrar pinturas</rem:actorRole>
+</rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0022">
@@ -1021,20 +1292,14 @@ Restricción de ventas</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0004"/>
 <rem:description>
 Se permite la venta al público general.</rem:description>
 </rem:constraintRequirement>
@@ -1051,20 +1316,14 @@ Resticción de trabajos de pintura</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0004"/>
 <rem:description>
 Sólo se permiten trabajos  de pintura a empresas y corporativos.</rem:description>
 </rem:constraintRequirement>
@@ -1081,20 +1340,14 @@ Restricción producto descatalogado</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:description>
 No se permitirá la venta de un producto que no esté en catalogo.</rem:description>
 </rem:constraintRequirement>
@@ -1111,20 +1364,14 @@ Restricción de venta a clientes de riesgo</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:description>
 No estará permitidos la venta a clientes con riesgo de dudoso cobro. A no ser, que se haya formalizado un acuerdo legal debidamente realizado.</rem:description>
 </rem:constraintRequirement>
@@ -1159,20 +1406,14 @@ Compatibilidad</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:description>
 El sistema será compatible en principio con la versiones de 32 y 64 bits de windows 95 o superior.</rem:description>
 </rem:nonFunctionalRequirement>
@@ -1189,20 +1430,14 @@ Autenticación</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:description>
 Cada empleado dispondrá de su clave de acceso privada.</rem:description>
 </rem:nonFunctionalRequirement>
@@ -1588,6 +1823,96 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno
 </rem:comments>
+<rem:section
+ oid = "SEC-0023">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0024">
+<rem:name>
+Modelo estatico del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0025">
+<rem:name>
+Modelo dinamico del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0026">
+<rem:name>
+Modelo funcional del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0027">
+<rem:name>
+Prototipo de interfaz de usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+</rem:section>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
 <rem:name>Registro de Conflictos y Defectos</rem:name>
