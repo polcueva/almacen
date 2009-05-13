@@ -1071,6 +1071,12 @@ Fecha</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
+<rem:specificData oid = "DAT-0036">
+<rem:description>
+Numero <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 <rem:specificData oid = "DAT-0033">
 <rem:description>
 Nombre</rem:description>
