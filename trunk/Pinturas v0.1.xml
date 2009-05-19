@@ -1320,6 +1320,43 @@ Subsistema Almacen</rem:name>
 Ninguno</rem:comments>
 <rem:level>4</rem:level>
 <rem:number>5.2.3.1 </rem:number>
+<rem:useCase
+ oid = "UC-0001">
+<rem:name>
+Caso de uso noseque</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+</rem:useCase>
 </rem:section>
 <rem:section
  oid = "SEC-0029">
@@ -1580,6 +1617,13 @@ Ninguno</rem:comments>
 <rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
 <rem:th oid ="OBJ-0004"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0001"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
