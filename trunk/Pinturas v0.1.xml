@@ -1150,7 +1150,7 @@ Diagrama de subsistemas</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Entregables\Diagrama de subsistemas.wmf]]>
+<![CDATA[.\Entregables\Diagramas\Diagrama de subsistemas.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -1169,7 +1169,7 @@ Diagrama de caso de uso del subsitema almacen</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Entregables\Diagrama_Almacen.wmf]]>
+<![CDATA[.\Entregables\Diagramas\Diagrama_Almacen.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -1188,7 +1188,7 @@ Diagrama de caso de uso del subsistema ventas</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Entregables\Diagrama_ventas.wmf]]>
+<![CDATA[.\Entregables\Diagramas\Diagrama_ventas.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
@@ -1207,7 +1207,7 @@ Diagrama de caso de uso del subsistema <rem:ref oid="GLO-0003">presupuesto</rem:
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Entregables\Diagrama_presupuesto.wmf]]>
+<![CDATA[.\Entregables\Diagramas\Diagrama_presupuesto.wmf]]>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
