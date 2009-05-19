@@ -1154,9 +1154,47 @@ Ninguno</rem:comments>
 </rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile
+ oid = "GRF-0007">
+<rem:name>
+Diagrama de caso de uso del subsitema almacen</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagrama_Almacen.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0008">
+<rem:name>
+Diagrama de caso de uso del subsistema ventas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagrama_ventas.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
  oid = "GRF-0006">
 <rem:name>
-Diagrama de casos de usos del subsistema <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
+Diagrama de caso de uso del subsistema <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
