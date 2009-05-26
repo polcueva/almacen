@@ -1909,8 +1909,44 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
@@ -1919,16 +1955,25 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 (Actor Empleado introduce el nu...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 (El sistema pide el numero de p...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 (Actor Empleado introduce la ca...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
@@ -1937,47 +1982,65 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 (El sistema hace una llamada al...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema muestra en pantalla...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 (El sistema pide el numero de f...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 (El sistema genera una nueva fa...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 (El sistema muestra la factura ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 (Actor Empleado selecciona los ...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 (Actor Empleado proporciona la ...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº6 (El sistema asocia a los produc...)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>5</rem:month>
 <rem:day>26</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 (El sistema  registra la devolu...)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº7 (Actor Empleado introduce los d...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 (El sistema calcula los totales...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>5</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 (El sistema calcula la devoluci...)]]></rem:description>
 </rem:change>
 </rem:log>
