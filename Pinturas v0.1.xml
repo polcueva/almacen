@@ -10,8 +10,8 @@ xmlns:rem="http://rem.lsi.us.es">
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2009</rem:year>
-<rem:month>3</rem:month>
-<rem:day>19</rem:day>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -53,7 +53,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El presente documento muestra ejemplo de ingeniería de requisitos aplicada a la informatización de una  tienda de pinturas.<br/>El objetivo es ilustrar cada uno de los elementos que debe contener el documento de requisitos del sistema.</rem:text>
+<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice. En primer lugar encontramos la introducción con una descripción de la empresa, de la aplicación y del índice. Continuamos enumerando los participantes en el proyecto, tanto personas como organizaciones. En el apartado siguiente hacemos una descripción del sistema con sus cinco pasos más importantes y sus gráficos correspondientes. Seguidamente describimos los objetivos generales del sistema. Después nos encontramos con el catálogo de requisitos del sistema compuesto por los requisitos de información del sistema, los requisitos funcionales, que a su vez contiene los diagramas de los casos de uso, la definición de los actores y los casos de uso del sistema,las reglas de negocio y los requisitos no funcionales. A continuación tenemos la matriz de rastreabilidad que relaciona los objetivos con los casos de uso, los requisitos de información y los requisitos de restricción. En el glosario, encrontramos una lista de definiciones de palabras que aparecen en el proyecto. Y por último, contiene en los apéndices A y B la documentación y los resumenes de las entrevistas en las que hemos basado la aplicación.<br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -327,7 +327,7 @@ El proceso básico de negocio</rem:name>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>El sistema de funcionamiento del laboratorio de prótesis dental se basa fundamentalmente en cuatro procesos: compra de pinturas, el proceso de devolución, control de almacén y, por último, el envío de la cuadrilla de pintores.<br/><br/>Estas tareas se realizan con el tradicional sistema de &quot;papel y bolígrafo&quot;, almacenando todos los datos en libretas. <br/><br/>A continuación está detallado el funcionamiento de estos procesos:<br/><br/></rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0012">
@@ -347,6 +347,23 @@ Compra de pinturas</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0020">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>COMPRA DE PINTURAS:<br/><br/>1)El cliente solicita pinturas al empleado<br/><br/>2)El empleado comprueba las existencias, en caso de haber, prepara el pedido y se lo da al cliente.<br/><br/>3)El cliente abona la cantidad y se termina la operacion.<br/><br/>4)En caso de no haber existencias hace una petición al almacén<br/><br/>5)Este comprueba sus existencias, en caso de tener las envía a la tienda. Si no dispone, hace una peticion a los proveedores.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
@@ -385,6 +402,23 @@ Proceso de devolución</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0021">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>DEVOLUCION DE PRODUCTO:<br/><br/>1)Un cliente se dispone a devolver un producto adquirido con anterioridad. Para ello entrega la <rem:ref oid="GLO-0004">factura</rem:ref> al empleado.<br/><br/>2)El empleado comprueba la <rem:ref oid="GLO-0004">factura</rem:ref>, en caso de estar todo correcto, devuelve el dinero al cliente y lo registra en el libro de cuentas.<br/><br/>3)El cliente termina. Y se suma el producto al <rem:ref oid="GLO-0007">stock</rem:ref>.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0002">
 <rem:name>
@@ -423,6 +457,23 @@ Control de almacen</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.3 </rem:number>
+<rem:paragraph
+ oid = "PRG-0022">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>CONTROL DE ALMACEN:<br/><br/>1)La tienda solicita pinturas al almacén.<br/><br/>2)El almacén busca las pinturas y si el <rem:ref oid="GLO-0007">stock</rem:ref> es bajo, solicita productos a los proveedores. Estos elaboran un <rem:ref oid="GLO-0003">presupuesto</rem:ref>, que si es aceptado, se envía posteriormente al almacén.<br/><br/>3)El almacén recibe las <rem:ref oid="GLO-0004">factura</rem:ref>, las abona y suma el <rem:ref oid="GLO-0007">stock</rem:ref><br/><br/>4)En caso de tener <rem:ref oid="GLO-0007">stock</rem:ref> suficiente, no es necesaria ninguna operación adicional.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0003">
 <rem:name>
@@ -461,6 +512,23 @@ Envío de pintores</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.4 </rem:number>
+<rem:paragraph
+ oid = "PRG-0023">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>ENVIO DE PINTORES:<br/><br/>1)Un cliente solicita un <rem:ref oid="GLO-0003">presupuesto</rem:ref> para un trabajo de pintores.<br/><br/>2)El empleado genera dicho <rem:ref oid="GLO-0003">presupuesto</rem:ref> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.<br/><br/>3)El empleado genera un nuevo <rem:ref oid="GLO-0003">presupuesto</rem:ref> y se lo envía nuevamente al cliente para su estudio.<br/><br/>4)Una vez confirmado, envía una confirmacion al empleado.<br/><br/>5)La cuadrilla es enviada para realizar su trabajo.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0004">
 <rem:name>
@@ -681,13 +749,7 @@ DNI</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0004">
-<rem:description>
-Direccion</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0005">
+<rem:specificData oid = "DAT-0093">
 <rem:description>
 Telefono</rem:description>
 <rem:comments>
@@ -696,6 +758,36 @@ Ninguno</rem:comments>
 <rem:specificData oid = "DAT-0006">
 <rem:description>
 E-mail</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0094">
+<rem:description>
+Numero de cuenta</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0004">
+<rem:description>
+Direccion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0095">
+<rem:description>
+Sueldo</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0096">
+<rem:description>
+Seg. Social</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0097">
+<rem:description>
+Identificador</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -741,15 +833,15 @@ Nombre</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0008">
+<rem:specificData oid = "DAT-0098">
 <rem:description>
-Telefono</rem:description>
+DNI</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0009">
+<rem:specificData oid = "DAT-0008">
 <rem:description>
-Direccion</rem:description>
+Telefono</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -759,9 +851,33 @@ E-mail</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
+<rem:specificData oid = "DAT-0009">
+<rem:description>
+Direccion</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
 <rem:specificData oid = "DAT-0011">
 <rem:description>
-Pedido</rem:description>
+C.P.</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0099">
+<rem:description>
+Provincia</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0100">
+<rem:description>
+Localidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0101">
+<rem:description>
+Cod. Cliente</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -803,25 +919,25 @@ sobre los productos de la empresa</rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0012">
 <rem:description>
-Tipo de pintura</rem:description>
+Descripción</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0013">
 <rem:description>
-Cantidad</rem:description>
+Código</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0014">
 <rem:description>
-Color</rem:description>
+Precio</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0015">
 <rem:description>
-Marca</rem:description>
+Cantidad</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -863,25 +979,13 @@ sobre los pedidos de la empresa</rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0016">
 <rem:description>
-Nombre del cliente</rem:description>
+Fecha de pedido</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0017">
 <rem:description>
-Productos solicitados</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0018">
-<rem:description>
-Cantidad</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0019">
-<rem:description>
-Precio total</rem:description>
+Numero de pedido</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -927,15 +1031,15 @@ Nombre</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0021">
-<rem:description>
-Telefono de contacto</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
 <rem:specificData oid = "DAT-0022">
 <rem:description>
 CIF</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0021">
+<rem:description>
+Telefono de contacto</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -945,15 +1049,15 @@ E-mail</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0024">
-<rem:description>
-Direccion</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
 <rem:specificData oid = "DAT-0025">
 <rem:description>
 Numero de cuenta corriente</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0024">
+<rem:description>
+Direccion</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -995,37 +1099,25 @@ sobre los presupuestos generados</rem:relevantConcept>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0026">
 <rem:description>
-Cliente</rem:description>
+Referencia</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0027">
 <rem:description>
-Lugar a pintar</rem:description>
+Subtotal</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0028">
 <rem:description>
-Superficie</rem:description>
+Fecha limite</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0029">
 <rem:description>
-Tipo de pintura</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0030">
-<rem:description>
-Cantidad necesaria</rem:description>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:specificData>
-<rem:specificData oid = "DAT-0031">
-<rem:description>
-Precio</rem:description>
+Fecha</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -1079,19 +1171,152 @@ Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0033">
 <rem:description>
-Nombre</rem:description>
+Subtotal</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0034">
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0008">
+<rem:name>
+Linea de pedido</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0102">
 <rem:description>
-Procucto(s)</rem:description>
+Cantidad</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
-<rem:specificData oid = "DAT-0035">
+<rem:specificData oid = "DAT-0103">
 <rem:description>
-Precio</rem:description>
+Precio total</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0009">
+<rem:name>
+Linea de <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+<rem:tbd/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0104">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0010">
+<rem:name>
+Linea de <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:relevantConcept>
+</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0105">
+<rem:description>
+Cantidad</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -1340,13 +1565,16 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-</rem:triggeringEvent>
+el empleado actualiza el inventario</rem:triggeringEvent>
 <rem:precondition>
 </rem:precondition>
 <rem:postcondition>
 El inventario queda actualizado</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
 <rem:step oid = "STP-0037">
 <rem:number>1</rem:number>
@@ -1406,7 +1634,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0007">
 <rem:name>
-Solicitar productos a vendedor</rem:name>
+Solicitar productos a proveedores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1418,26 +1646,21 @@ Solicitar productos a vendedor</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+el empleado solicita productos a los proveedores.</rem:triggeringEvent>
 <rem:precondition>
-<rem:tbd/></rem:precondition>
+</rem:precondition>
 <rem:postcondition>
 El sistema registró el pedido</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
 <rem:step oid = "STP-0075">
 <rem:number>1</rem:number>
@@ -1491,26 +1714,21 @@ Actualizar libro de ventas</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+se realiza una venta o devolución.</rem:triggeringEvent>
 <rem:precondition>
-<rem:tbd/></rem:precondition>
+</rem:precondition>
 <rem:postcondition>
 El libro de cuentas queda actualizado</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
 </rem:frequency>
 <rem:step oid = "STP-0079">
 <rem:number>1</rem:number>
@@ -1564,26 +1782,21 @@ Consultar existencias</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+un empleado consulta las existencias.</rem:triggeringEvent>
 <rem:precondition>
-<rem:tbd/></rem:precondition>
+</rem:precondition>
 <rem:postcondition>
-<rem:tbd/></rem:postcondition>
+</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
 </rem:frequency>
 <rem:step oid = "STP-0083">
 <rem:number>1</rem:number>
@@ -1657,18 +1870,19 @@ Comprobar facturas</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0004"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
+<rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+es necesaria la comprobación de una <rem:ref oid="GLO-0004">factura</rem:ref></rem:triggeringEvent>
 <rem:precondition>
 El sistema debe tener almacenada la <rem:ref oid="GLO-0004">factura</rem:ref></rem:precondition>
 <rem:postcondition>
 </rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
 </rem:frequency>
 <rem:step oid = "STP-0043">
 <rem:number>1</rem:number>
@@ -1722,26 +1936,21 @@ Devolucion de producto</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+se realiza la devolución de un producto.</rem:triggeringEvent>
 <rem:precondition>
 La <rem:ref oid="GLO-0004">factura</rem:ref> esta registrada en el sistema.</rem:precondition>
 <rem:postcondition>
 El <rem:ref oid="GLO-0007">stock</rem:ref> de los productos devueltos se ha actualizado y se ha registrado la devolución</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
 </rem:frequency>
 <rem:step oid = "STP-0052">
 <rem:number>1</rem:number>
@@ -1822,26 +2031,21 @@ Hacer <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+se realiza una <rem:ref oid="GLO-0004">factura</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
 El sistema debe tener el <rem:ref oid="GLO-0003">presupuesto</rem:ref> correspondiente almacenado</rem:precondition>
 <rem:postcondition>
 La <rem:ref oid="GLO-0004">factura</rem:ref> ha sido imprimida y archivada</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
 </rem:frequency>
 <rem:step oid = "STP-0059">
 <rem:number>1</rem:number>
@@ -1972,13 +2176,16 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+se da de alta a un nuevo cliente</rem:triggeringEvent>
 <rem:precondition>
 </rem:precondition>
 <rem:postcondition>
 El cliente queda registrado satisfactoriamente en el sistema</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
 </rem:frequency>
 <rem:step oid = "STP-0050">
 <rem:number>1</rem:number>
@@ -2032,26 +2239,21 @@ Hacer <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+se realiza un <rem:ref oid="GLO-0003">presupuesto</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-<rem:tbd/></rem:precondition>
+</rem:precondition>
 <rem:postcondition>
 El <rem:ref oid="GLO-0003">presupuesto</rem:ref> queda registrado</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+7
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
 <rem:step oid = "STP-0069">
 <rem:number>1</rem:number>
@@ -2123,26 +2325,21 @@ Modificar <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-<rem:tbd/></rem:triggeringEvent>
+cuando se realiza la modificación de un <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:triggeringEvent>
 <rem:precondition>
 El <rem:ref oid="GLO-0003">presupuesto</rem:ref> debe de estar registrado en el sistema</rem:precondition>
 <rem:postcondition>
 El <rem:ref oid="GLO-0003">presupuesto</rem:ref> queda modificado</rem:postcondition>
 <rem:frequency>
-<rem:tbd/>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:frequency>
 <rem:step oid = "STP-0087">
 <rem:number>1</rem:number>
@@ -2544,6 +2741,27 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
+<rem:th oid ="IRQ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="IRQ-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
 <rem:th oid ="NFR-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2896,25 +3114,6 @@ Ninguno</rem:comments>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
- oid = "SEC-0010">
-<rem:name>
-Acta de Reuniones</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>3</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>1</rem:level>
-<rem:number>A </rem:number>
-</rem:section>
-<rem:section
  oid = "SEC-0011">
 <rem:name>
 Documentación aportada</rem:name>
@@ -2931,7 +3130,84 @@ Documentación aportada</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
+<rem:number>A </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0010">
+<rem:name>
+Acta de Reuniones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
 <rem:number>B </rem:number>
+<rem:meeting
+ oid = "MET-0002">
+<rem:name>
+Primera entrevista con el cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>3</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>12</rem:hour>
+<rem:minute>54</rem:minute>
+</rem:time>
+<rem:place>Tienda Andaluza De Pinturas S.A.</rem:place>
+<rem:results>Reunion con el representante de Andaluza de Pinturas S.A.<br/><br/>Tras las presentaciones, no nos andamos con rodeos y empezamos la entrevista con una pregunta directa -¿En que consiste el negocio?- A lo que Francisco nos respondió: Nos dedicamos a la venta de pinturas al por menor y la aplicación de pinturas por parte de una plantilla nuestra.<br/><br/>Lanzamos la siguiente pregunta -¿En que consiste la actividad normal?-<br/>La respuesta fue breve. -Suministramos pinturas al publico.<br/>Una plantilla de trabajadores, hace frente a encargos de empresas. (Pintar edificios, etc...)<br/><br/>Decidimos preguntar sobre el desarrollo de un proceso, y obtuvimos la respuesta siguiente:<br/>“De cara al publico, se comprueba el <rem:ref oid="GLO-0007">stock</rem:ref> del producto en concreto, en caso de disponer de <rem:ref oid="GLO-0007">stock</rem:ref>, se realiza el cambio en el inventario. Y en caso contrario, se realizararia un pedido al almacen propio.<br/>Es necesario tener un <rem:ref oid="GLO-0007">stock</rem:ref> minino de seguridad, que en el momento de que salte la alarma sobre minimos, realizara una peticion al proveedor.<br/><br/>En caso de no disponer de suficiente cantidad de pinturas en el almacen, debido a un encargo “grande” de una empresa, se realizaria un pedido a los proveedores.”<br/><br/>Nos interesaban los procesos de negocio, asi que le lanzamos la pregunta.<br/>Francisco no responde en pocas palabras: Nos tenemos que ocupar de la gestion de compra, de la tienda a los proveedores, negociando los precios.<br/>Sin olvidar la gestion de venta, tanto al particular como al privado (encargos de pinturas).<br/><br/>-¿Cuales son los objetivos de negocio?-Preguntamos.<br/>Según las palabras de Francisco, marcar un plan de ventas que cubra los gastos del negocios, y además, aporte un beneficio, claro (risas).<br/><br/>Siguiente pregunta: ¿Sobre que deben informar los empleados? (gastos por kilometraje, dietas, comidas con clientes, otros gastos).<br/>Nuestros empleados deben informar (y justificar) litros de gasolina debido a desplazamientos, kilometros recorridos y dietas.<br/><br/>Preguntamos a continuacion como se lleva la gestión del inventario, ya que es un punto importarte del proyecto.<br/>Ya se que es anticuado, pero en un libro, se hace inventario sobre el <rem:ref oid="GLO-0007">stock</rem:ref> disponible, recogiendo las entradas y salidas tanto del almacen, como de la tienda.<br/><br/>¿Que criterio se usa para clasificar los productos en el almacén?<br/>Según la demanda que tenga, los productos estaran colocados cerca de la entrada, y se dispondra de mayor cantidad, de productos comunes como “pintura blanca”, colocando mas alejado de la entrada, productos de menor venta, (por ejemplo, colores exoticos o de agatha ruiz de la prada).<br/><br/>Nos pregunto Francisco si los Gastos de mantenimiento de vehiculos se verian reflejados, a lo que contestamos que no, ya que seria un software que se dedica a otros menesteres.<br/><br/>A continuacion nos explico como pedir a un proveedores<br/>Se comunicaria con la empresa suminstradora, y se acordaria un numero fijo, para que ademas la fabrica haga sus previsiones.<br/> <br/>Acerca de quien aporta al proveedor, no fue necesario preguntarle ya que el software estaria fuera del alcance de esto.<br/><br/>Una vez realizadas todas la peliculas, nos despidimos de Francisco y damos por concluida la seccion.<br/></rem:results>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 STK-0007 "/>
+</rem:meeting>
+<rem:meeting
+ oid = "MET-0001">
+<rem:name>
+Segunda entrevista con el cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>4</rem:month>
+<rem:day>20</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>17</rem:hour>
+<rem:minute>52</rem:minute>
+</rem:time>
+<rem:place>Residencia de Francisco Segura Martín</rem:place>
+<rem:results>En esta segunda entrevista, nos dedicamos a recopilar detalles que habíamos pasado por alto en la primera y dudas que nos habían ido surgiendo durante el desarrollo de la aplicación. Con ésto pudimos ir completando y corrigiendo todos los apartados hechos anteriormente. También nos sirvió para empezar con los digramas de clase, los diagramas de secuencias y las operaciones.<br/> <br/>Pedimos al cliente información sobre algún elemento técnico a añadir en el glosario. <br/><br/>Le enseñamos a nuestro cliente como estaba quedando la aplicación, para así poder corregir errores o añadir nuevas propuestas. <br/>Hicimos fotos del laboratorio y el cliente nos proporcionó algunos documentos( facturas, notas de entrega,....) que nos serian de utilidad en nuestro trabajo.</rem:results>
+	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 STK-0007 "/>
+</rem:meeting>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
@@ -2948,6 +3224,8 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno
 </rem:comments>
+	 <rem:preparedFor organizations = "ORG-0002 "/>
+	 <rem:preparedBy organizations = "ORG-0001 "/>
 <rem:section
  oid = "SEC-0023">
 <rem:name>
@@ -2965,6 +3243,23 @@ Introducción</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0024">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice, que está compuesto por una introducción que incluye una descripción del contenido del documento y del sistema a desarrollar; el modelo estático del sistema donde se encuentran los diagramas de clases correspondientes a los requisitos y restricciones de información; el modelo dinámico del sistema que consta de los diagramas de secuencias correspondientes a los casos de uso del sistema; el modelo funcional del sistema en el que se incluye una especificación de las operaciones del sistema y por último el prototipo de interfaz de usuario que contiene la interfaz de usuario correspondiente a los casos de uso realizados</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0024">
@@ -2983,6 +3278,25 @@ Modelo estatico del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0009">
+<rem:name>
+Diagrama de Clases</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagrama de Clases.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0025">
@@ -3001,6 +3315,339 @@ Modelo dinamico del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>3 </rem:number>
+<rem:section
+ oid = "SEC-0031">
+<rem:name>
+Devolucion Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0010">
+<rem:name>
+Devolucion Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama de secuencia Devolucion producto.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0032">
+<rem:name>
+Hacer <rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0011">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama de Secuencia Hacer Factura.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0033">
+<rem:name>
+Hacer <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0012">
+<rem:name>
+Hacer <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama de Secuencia Hacer PresupuestoNew.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0034">
+<rem:name>
+Modificar <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.4 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0013">
+<rem:name>
+Modificar <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama de secuencia modificar presupuesto.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0035">
+<rem:name>
+Comprobar <rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.5 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0014">
+<rem:name>
+Comprobar <rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama del Secuencia Comprobar Factura.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0036">
+<rem:name>
+Alta Empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.6 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0015">
+<rem:name>
+Alta Empleado</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama secuencia dar de alta empleado.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0037">
+<rem:name>
+Hacer Pedido Proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.7 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0016">
+<rem:name>
+Hacer Pedido Proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama secuencia hacer pedido proveedor.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0038">
+<rem:name>
+Actualizar Inventario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.8 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0017">
+<rem:name>
+Actualizar Inventario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama_Secuencia_Actualizar_inventario.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
+<rem:section
+ oid = "SEC-0039">
+<rem:name>
+Consultar Existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.9 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0018">
+<rem:name>
+Consultar Existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Diagramas\Diagramas de Secuencias\Diagrama_Secuencia_Consultar_Existencias.wmf]]>
+</rem:fileName>
+</rem:graphicFile>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0026">
@@ -3019,6 +3666,400 @@ Modelo funcional del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>4 </rem:number>
+<rem:section
+ oid = "SEC-0040">
+<rem:name>
+Operacion actualizar libro de cuentas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.1 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0001">
+<rem:name>
+ProductoActualiza</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Actualizar el libro de cuentas</rem:description>
+<rem:parameter oid = "PAR-0106" baseType = "PVT-0004">
+<rem:name>
+producto</rem:name>
+<rem:description>
+Nombre del producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0107" baseType = "PVT-0002">
+<rem:name>
+Cantidad</rem:name>
+<rem:description>
+Cantidad del producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0108" baseType = "PVT-0001">
+<rem:name>
+Precio</rem:name>
+<rem:description>
+Precio del producto</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0109">
+<rem:name>existeProducto</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que su Nombre=producto]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0110">
+<rem:name>objetoActualizado</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[El objeto queda actualizado]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0041">
+<rem:name>
+Operacion comprobar <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.2 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0002">
+<rem:name>
+ComprobarFactura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Comprobar una <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:parameter oid = "PAR-0113" baseType = "PVT-0002">
+<rem:name>
+NumeroFactura</rem:name>
+<rem:description>
+Indica el numero de la <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0114" baseType = "PVT-0005">
+<rem:name>
+Fecha</rem:name>
+<rem:description>
+Indica la fecha de realizacion de la <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0111">
+<rem:name>comprobarFactura</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Existe un objeto de la clase Factura tal que su Fecha=NumeroDeFecha y su Numero = 	NumeroFactura]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0042">
+<rem:name>
+Operacion consultar existencias</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.3 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0003">
+<rem:name>
+Producto A Consultar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Consultar las existencias<br/></rem:description>
+<rem:parameter oid = "PAR-0115" baseType = "PVT-0004">
+<rem:name>
+Producto</rem:name>
+<rem:description>
+indica el producto a consultar</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0116">
+<rem:name>existeObjeto</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que su Nombre=producto]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0043">
+<rem:name>
+Operacion devolución productos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.4 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0004">
+<rem:name>
+Devolucion Producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Devolución productos</rem:description>
+<rem:parameter oid = "PAR-0118" baseType = "PVT-0004">
+<rem:name>
+codigo</rem:name>
+<rem:description>
+La</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:parameter oid = "PAR-0119" baseType = "PVT-0003">
+<rem:name>
+cantidad</rem:name>
+<rem:description>
+la cantidad de productos</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0122">
+<rem:name>existeProducto</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+<rem:postconditionExpression oid = "POS-0123">
+<rem:name>asignaObjeto</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:postconditionExpression>
+</rem:systemOperation>
+<rem:systemOperation
+ oid = "SOP-0005">
+<rem:name>
+obtener <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+Obtener <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:parameter oid = "PAR-0124" baseType = "PVT-0002">
+<rem:name>
+Referencia</rem:name>
+<rem:description>
+Identificador para la <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:parameter>
+<rem:preconditionExpression oid = "PRE-0125">
+<rem:name>existeFactura</rem:name>
+<rem:expression>
+<rem:natural>
+</rem:natural>
+<rem:ocl><![CDATA[Existe un objeto de la clase Factura tal que su numeroFactura=referencia]]></rem:ocl>
+</rem:expression>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:preconditionExpression>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0044">
+<rem:name>
+Operacion hacer <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.5 </rem:number>
+<rem:systemOperation
+ oid = "SOP-0006">
+<rem:name>
+Añadir Productos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+<rem:tbd/></rem:description>
+</rem:systemOperation>
+</rem:section>
+<rem:section
+ oid = "SEC-0045">
+<rem:name>
+Operacion hacer <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.6 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0046">
+<rem:name>
+Operacion modificar <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.7 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0047">
+<rem:name>
+Operacion pedido proveedor</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.8 </rem:number>
+</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0027">
