@@ -37,7 +37,7 @@
 <h1 class="cover">Documento de Requisitos del Sistema</h1>
 <p />
 <h3>Versión 1.0</h3>
-<h3>Fecha 19/03/2009</h3>
+<h3>Fecha 18/06/2009</h3>
 <p />
 <h3>Preparado para:</h3>
 <a href="#ORG-0002" title="Andaluza de Pinturas S.A.">
@@ -200,15 +200,15 @@ Glosario</a>
 <tr>
 <th align="left" valign="top">A </th>
 <th align="left" valign="top" width="100%" colspan="3">
-<a href="#SEC-0010">
-Acta de Reuniones</a>
+<a href="#SEC-0011">
+Documentación aportada</a>
 </th>
 </tr>
 <tr>
 <th align="left" valign="top">B </th>
 <th align="left" valign="top" width="100%" colspan="3">
-<a href="#SEC-0011">
-Documentación aportada</a>
+<a href="#SEC-0010">
+Acta de Reuniones</a>
 </th>
 </tr>
 </table>
@@ -218,8 +218,14 @@ Documentación aportada</a>
 <a name="SEC-0001" />
 <h1 align="left">1 
 Introduccion</h1><a name="PRG-0001" />
-<p>El presente documento muestra ejemplo de ingeniería de requisitos aplicada a la informatización de una  tienda de pinturas.
-<br />El objetivo es ilustrar cada uno de los elementos que debe contener el documento de requisitos del sistema.</p>
+<p>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. 
+<br />
+<br />Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. 
+<br />
+<br />A continuación procedemos con la descripción del índice. En primer lugar encontramos la introducción con una descripción de la empresa, de la aplicación y del índice. Continuamos enumerando los participantes en el proyecto, tanto personas como organizaciones. En el apartado siguiente hacemos una descripción del sistema con sus cinco pasos más importantes y sus gráficos correspondientes. Seguidamente describimos los objetivos generales del sistema. Después nos encontramos con el catálogo de requisitos del sistema compuesto por los requisitos de información del sistema, los requisitos funcionales, que a su vez contiene los diagramas de los casos de uso, la definición de los actores y los casos de uso del sistema,las reglas de negocio y los requisitos no funcionales. A continuación tenemos la matriz de rastreabilidad que relaciona los objetivos con los casos de uso, los requisitos de información y los requisitos de restricción. En el glosario, encrontramos una lista de definiciones de palabras que aparecen en el proyecto. Y por último, contiene en los apéndices A y B la documentación y los resumenes de las entrevistas en las que hemos basado la aplicación.
+<br />
+<br />
+</p>
 <a name="SEC-0002" />
 <h1 align="left">2 
 Participantes en el proyecto</h1><a name="SEC-0003" />
@@ -519,11 +525,29 @@ Ninguno</td>
 <a name="SEC-0005" />
 <h1 align="left">3 
 Descripción del sistema actual</h1><a name="PRG-0002" />
-<p>
+<p>El sistema de funcionamiento del laboratorio de prótesis dental se basa fundamentalmente en cuatro procesos: compra de pinturas, el proceso de devolución, control de almacén y, por último, el envío de la cuadrilla de pintores.
+<br />
+<br />Estas tareas se realizan con el tradicional sistema de "papel y bolígrafo", almacenando todos los datos en libretas. 
+<br />
+<br />A continuación está detallado el funcionamiento de estos procesos:
+<br />
+<br />
 </p>
 <a name="SEC-0012" />
 <h2 align="left">3.1 
-Compra de pinturas</h2><a name="GRF-0001" />
+Compra de pinturas</h2><a name="PRG-0020" />
+<p>COMPRA DE PINTURAS:
+<br />
+<br />1)El cliente solicita pinturas al empleado
+<br />
+<br />2)El empleado comprueba las existencias, en caso de haber, prepara el pedido y se lo da al cliente.
+<br />
+<br />3)El cliente abona la cantidad y se termina la operacion.
+<br />
+<br />4)En caso de no haber existencias hace una petición al almacén
+<br />
+<br />5)Este comprueba sus existencias, en caso de tener las envía a la tienda. Si no dispone, hace una peticion a los proveedores.</p>
+<a name="GRF-0001" />
 <p align="center">
 <img src=".\Entregables\BPM\BPMN Compra 2002.wmf" title=".\Entregables\BPM\BPMN Compra 2002.wmf" />
 </p>
@@ -533,7 +557,17 @@ Compra de pinturas</h2><a name="GRF-0001" />
 Compra de pinturas</p>
 <a name="SEC-0013" />
 <h2 align="left">3.2 
-Proceso de devolución</h2><a name="GRF-0002" />
+Proceso de devolución</h2><a name="PRG-0021" />
+<p>DEVOLUCION DE PRODUCTO:
+<br />
+<br />1)Un cliente se dispone a devolver un producto adquirido con anterioridad. Para ello entrega la <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a> al empleado.
+<br />
+<br />2)El empleado comprueba la <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>, en caso de estar todo correcto, devuelve el dinero al cliente y lo registra en el libro de cuentas.
+<br />
+<br />3)El cliente termina. Y se suma el producto al <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a>.
+<br />
+</p>
+<a name="GRF-0002" />
 <p align="center">
 <img src=".\Entregables\BPM\Proceso de devolucion 2002.wmf" title=".\Entregables\BPM\Proceso de devolucion 2002.wmf" />
 </p>
@@ -543,7 +577,17 @@ Proceso de devolución</h2><a name="GRF-0002" />
 Devolucion pinturas</p>
 <a name="SEC-0014" />
 <h2 align="left">3.3 
-Control de almacen</h2><a name="GRF-0003" />
+Control de almacen</h2><a name="PRG-0022" />
+<p>CONTROL DE ALMACEN:
+<br />
+<br />1)La tienda solicita pinturas al almacén.
+<br />
+<br />2)El almacén busca las pinturas y si el <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a> es bajo, solicita productos a los proveedores. Estos elaboran un <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>, que si es aceptado, se envía posteriormente al almacén.
+<br />
+<br />3)El almacén recibe las <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>, las abona y suma el <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a>
+<br />
+<br />4)En caso de tener <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a> suficiente, no es necesaria ninguna operación adicional.</p>
+<a name="GRF-0003" />
 <p align="center">
 <img src=".\Entregables\BPM\Control de Almacen_2002.wmf" title=".\Entregables\BPM\Control de Almacen_2002.wmf" />
 </p>
@@ -553,7 +597,19 @@ Control de almacen</h2><a name="GRF-0003" />
 Control de almacén</p>
 <a name="SEC-0015" />
 <h2 align="left">3.4 
-Envío de pintores</h2><a name="GRF-0004" />
+Envío de pintores</h2><a name="PRG-0023" />
+<p>ENVIO DE PINTORES:
+<br />
+<br />1)Un cliente solicita un <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a> para un trabajo de pintores.
+<br />
+<br />2)El empleado genera dicho <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.
+<br />
+<br />3)El empleado genera un nuevo <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a> y se lo envía nuevamente al cliente para su estudio.
+<br />
+<br />4)Una vez confirmado, envía una confirmacion al empleado.
+<br />
+<br />5)La cuadrilla es enviada para realizar su trabajo.</p>
+<a name="GRF-0004" />
 <p align="center">
 <img src=".\Entregables\BPM\Envio de pintores 2002.wmf" title=".\Entregables\BPM\Envio de pintores 2002.wmf" />
 </p>
@@ -1016,14 +1072,26 @@ Nombre</li>
 <a name="DAT-0003" />
 DNI</li>
 <li>
-<a name="DAT-0004" />
-Direccion</li>
-<li>
-<a name="DAT-0005" />
+<a name="DAT-0093" />
 Telefono</li>
 <li>
 <a name="DAT-0006" />
 E-mail</li>
+<li>
+<a name="DAT-0094" />
+Numero de cuenta</li>
+<li>
+<a name="DAT-0004" />
+Direccion</li>
+<li>
+<a name="DAT-0095" />
+Sueldo</li>
+<li>
+<a name="DAT-0096" />
+Seg. Social</li>
+<li>
+<a name="DAT-0097" />
+Identificador</li>
 </ul>
 </td>
 </tr>
@@ -1149,17 +1217,29 @@ sobre información de los clientes.
 <a name="DAT-0007" />
 Nombre</li>
 <li>
+<a name="DAT-0098" />
+DNI</li>
+<li>
 <a name="DAT-0008" />
 Telefono</li>
-<li>
-<a name="DAT-0009" />
-Direccion</li>
 <li>
 <a name="DAT-0010" />
 E-mail</li>
 <li>
+<a name="DAT-0009" />
+Direccion</li>
+<li>
 <a name="DAT-0011" />
-Pedido</li>
+C.P.</li>
+<li>
+<a name="DAT-0099" />
+Provincia</li>
+<li>
+<a name="DAT-0100" />
+Localidad</li>
+<li>
+<a name="DAT-0101" />
+Cod. Cliente</li>
 </ul>
 </td>
 </tr>
@@ -1263,16 +1343,16 @@ sobre los productos de la empresa.
 <ul>
 <li>
 <a name="DAT-0012" />
-Tipo de pintura</li>
+Descripción</li>
 <li>
 <a name="DAT-0013" />
-Cantidad</li>
+Código</li>
 <li>
 <a name="DAT-0014" />
-Color</li>
+Precio</li>
 <li>
 <a name="DAT-0015" />
-Marca</li>
+Cantidad</li>
 </ul>
 </td>
 </tr>
@@ -1376,16 +1456,10 @@ sobre los pedidos de la empresa.
 <ul>
 <li>
 <a name="DAT-0016" />
-Nombre del cliente</li>
+Fecha de pedido</li>
 <li>
 <a name="DAT-0017" />
-Productos solicitados</li>
-<li>
-<a name="DAT-0018" />
-Cantidad</li>
-<li>
-<a name="DAT-0019" />
-Precio total</li>
+Numero de pedido</li>
 </ul>
 </td>
 </tr>
@@ -1491,20 +1565,20 @@ sobre los proveedores de la empresa.
 <a name="DAT-0020" />
 Nombre</li>
 <li>
-<a name="DAT-0021" />
-Telefono de contacto</li>
-<li>
 <a name="DAT-0022" />
 CIF</li>
+<li>
+<a name="DAT-0021" />
+Telefono de contacto</li>
 <li>
 <a name="DAT-0023" />
 E-mail</li>
 <li>
-<a name="DAT-0024" />
-Direccion</li>
-<li>
 <a name="DAT-0025" />
 Numero de cuenta corriente</li>
+<li>
+<a name="DAT-0024" />
+Direccion</li>
 </ul>
 </td>
 </tr>
@@ -1608,22 +1682,16 @@ sobre los presupuestos generados.
 <ul>
 <li>
 <a name="DAT-0026" />
-Cliente</li>
+Referencia</li>
 <li>
 <a name="DAT-0027" />
-Lugar a pintar</li>
+Subtotal</li>
 <li>
 <a name="DAT-0028" />
-Superficie</li>
+Fecha limite</li>
 <li>
 <a name="DAT-0029" />
-Tipo de pintura</li>
-<li>
-<a name="DAT-0030" />
-Cantidad necesaria</li>
-<li>
-<a name="DAT-0031" />
-Precio</li>
+Fecha</li>
 </ul>
 </td>
 </tr>
@@ -1734,13 +1802,7 @@ Numero <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas
 </li>
 <li>
 <a name="DAT-0033" />
-Nombre</li>
-<li>
-<a name="DAT-0034" />
-Procucto(s)</li>
-<li>
-<a name="DAT-0035" />
-Precio</li>
+Subtotal</li>
 </ul>
 </td>
 </tr>
@@ -1779,6 +1841,334 @@ Precio</li>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
 <td align="left" valign="top" colspan="2">media</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0008" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0008</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Linea de pedido</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 16/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0007">
+Francisco Segura Martín</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>
+<font color="red"><b>PD</b></font>.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0102" />
+Cantidad</li>
+<li>
+<a name="DAT-0103" />
+Precio total</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0009" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0009</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Linea de <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 16/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>
+<font color="red"><b>PD</b></font>.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0104" />
+Cantidad</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="IRQ-0010" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">IRQ-0010</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Linea de <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0 
+			( 16/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá almacenar la información correspondiente a 
+<em>.
+				</em>
+    En concreto:
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Datos específicos</th>
+<td colspan="2" align="left" valign="top">
+<ul>
+<li>
+<a name="DAT-0105" />
+Cantidad</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Tiempo de vida</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th rowspan="2" align="left" valign="top">Ocurrencias simultáneas</th>
+<th align="left" valign="top">Medio</th>
+<th align="left" valign="top">Máximo</th>
+</tr>
+<tr>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+<td>
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2018,7 +2408,7 @@ Actualizar inventario</th>
 
     caso de uso cuando
 <em>
-</em>
+el empleado actualiza el inventario</em>
 </td>
 </tr>
 <tr>
@@ -2123,8 +2513,10 @@ El inventario queda actualizado</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+3
+veces por
+                         
+                        semana(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
@@ -2154,7 +2546,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0007</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Solicitar productos a vendedor</th>
+Solicitar productos a proveedores</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -2185,14 +2577,12 @@ Solicitar productos a vendedor</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+el empleado solicita productos a los proveedores.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
 </td>
 </tr>
 <tr>
@@ -2272,32 +2662,26 @@ El sistema registró el pedido</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+2
+veces por
+                         
+                        semana(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2342,14 +2726,12 @@ Actualizar libro de ventas</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+se realiza una venta o devolución.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
 </td>
 </tr>
 <tr>
@@ -2429,32 +2811,26 @@ El libro de cuentas queda actualizado</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+10
+veces por
+                         
+                        día(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2499,14 +2875,12 @@ Consultar existencias</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+un empleado consulta las existencias.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
 </td>
 </tr>
 <tr>
@@ -2555,7 +2929,6 @@ localiza el producto y muestra en pantalla la cantidad actual del producto</em>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
 </td>
 </tr>
 <tr>
@@ -2587,32 +2960,26 @@ localiza el producto y muestra en pantalla la cantidad actual del producto</em>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+10
+veces por
+                         
+                        día(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">hay presión</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -2659,7 +3026,7 @@ Comprobar facturas</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
+es necesaria la comprobación de una <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>
 </em>
 </td>
 </tr>
@@ -2749,8 +3116,10 @@ muestra la <a href="#GLO-0004" title="Cuenta que los factores dan del coste y co
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+3
+veces por
+                         
+                        día(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
@@ -2762,9 +3131,7 @@ muestra la <a href="#GLO-0004" title="Cuenta que los factores dan del coste y co
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
@@ -2813,8 +3180,7 @@ Devolucion de producto</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+se realiza la devolución de un producto.</em>
 </td>
 </tr>
 <tr>
@@ -2929,32 +3295,26 @@ El <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+3
+veces por
+                         
+                        día(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">importante</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">hay presión</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -3000,8 +3360,7 @@ Hacer <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas 
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+se realiza una <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>.</em>
 </td>
 </tr>
 <tr>
@@ -3144,32 +3503,26 @@ La <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de 
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+10
+veces por
+                         
+                        día(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">importante</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">hay presión</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -3216,8 +3569,7 @@ Dar de alta a cliente</th>
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+se da de alta a un nuevo cliente</em>
 </td>
 </tr>
 <tr>
@@ -3302,8 +3654,10 @@ El cliente queda registrado satisfactoriamente en el sistema</td>
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+5
+veces por
+                         
+                        segundo(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
@@ -3365,14 +3719,12 @@ Hacer <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de l
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
-</em>
+se realiza un <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
 </td>
 </tr>
 <tr>
@@ -3472,32 +3824,26 @@ El <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los 
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+7
+veces por
+                         
+                        semana(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -3543,7 +3889,7 @@ Modificar <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o 
 
     caso de uso cuando
 <em>
-<font color="red"><b>PD</b></font>
+cuando se realiza la modificación de un <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>
 </em>
 </td>
 </tr>
@@ -3651,32 +3997,26 @@ El <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los 
 <tr>
 <th align="left" valign="top">Frecuencia esperada</th>
 <td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+5
+veces por
+                         
+                        semana(s)</td>
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+<td align="left" valign="top" colspan="2">media</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -4244,7 +4584,7 @@ Matriz de rastreabilidad</h1><a name="TRM-0001" />
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #UC-0007" title="Solicitar productos a vendedor">UC-0007</a>
+<a href="&#xA;                        #UC-0007" title="Solicitar productos a proveedores">UC-0007</a>
 </th>
 <td align="center" valign="top">
                 -
@@ -4431,6 +4771,57 @@ Matriz de rastreabilidad</h1><a name="TRM-0001" />
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #IRQ-0008" title="Linea de pedido">IRQ-0008</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #IRQ-0009" title="Linea de factura">IRQ-0009</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #IRQ-0010" title="Linea de presupuesto">IRQ-0010</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #NFR-0001" title="Compatibilidad">NFR-0001</a>
 </th>
 <td align="center" valign="top">
@@ -4592,9 +4983,173 @@ Glosario</h1><a name="GLO-0012" />
 <a name="GLO-0007" />
 <p align="left">
 <b> Stock:</b>Cantidad de mercancías que se tienen en depósito o almacén</p>
-<a name="SEC-0010" />
+<a name="SEC-0011" />
 <h1 align="left">A 
-Acta de Reuniones</h1><a name="SEC-0011" />
+Documentación aportada</h1><a name="SEC-0010" />
 <h1 align="left">B 
-Documentación aportada</h1></body>
+Acta de Reuniones</h1><a name="MET-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Reunión</th>
+<th align="left" valign="top" width="100%">
+Primera entrevista con el cliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Fecha</th>
+<td align="left" valign="top" colspan="1">15/03/2009</td>
+</tr>
+<tr>
+<th align="left" valign="top">Hora</th>
+<td align="left" valign="top" colspan="1">12:54</td>
+</tr>
+<tr>
+<th align="left" valign="top">Lugar</th>
+<td align="left" valign="top" colspan="1">Tienda Andaluza De Pinturas S.A.</td>
+</tr>
+<tr><th align="left" valign="top">Asistentes</th>
+<td align="left" valign="top">
+<ul>
+<li>
+<a href="#STK-0001" title="Álvaro Segura Gómez">
+Álvaro Segura Gómez</a>
+</li>
+<li>
+<a href="#STK-0005" title="Daniel García Howard">
+Daniel García Howard</a>
+</li>
+<li>
+<a href="#STK-0002" title="David Ruiz Enrique">
+David Ruiz Enrique</a>
+</li>
+<li>
+<a href="#STK-0007" title="Francisco Segura Martín">
+Francisco Segura Martín</a>
+</li>
+<li>
+<a href="#STK-0003" title="Juan José Alcazar Cobano">
+Juan José Alcazar Cobano</a>
+</li>
+<li>
+<a href="#STK-0006" title="Luis Toro Japón">
+Luis Toro Japón</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Resultados</th>
+<td align="left" valign="top" colspan="1">Reunion con el representante de Andaluza de Pinturas S.A.
+<br />
+<br />Tras las presentaciones, no nos andamos con rodeos y empezamos la entrevista con una pregunta directa -¿En que consiste el negocio?- A lo que Francisco nos respondió: Nos dedicamos a la venta de pinturas al por menor y la aplicación de pinturas por parte de una plantilla nuestra.
+<br />
+<br />Lanzamos la siguiente pregunta -¿En que consiste la actividad normal?-
+<br />La respuesta fue breve. -Suministramos pinturas al publico.
+<br />Una plantilla de trabajadores, hace frente a encargos de empresas. (Pintar edificios, etc...)
+<br />
+<br />Decidimos preguntar sobre el desarrollo de un proceso, y obtuvimos la respuesta siguiente:
+<br />?De cara al publico, se comprueba el <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a> del producto en concreto, en caso de disponer de <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a>, se realiza el cambio en el inventario. Y en caso contrario, se realizararia un pedido al almacen propio.
+<br />Es necesario tener un <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a> minino de seguridad, que en el momento de que salte la alarma sobre minimos, realizara una peticion al proveedor.
+<br />
+<br />En caso de no disponer de suficiente cantidad de pinturas en el almacen, debido a un encargo ?grande? de una empresa, se realizaria un pedido a los proveedores.?
+<br />
+<br />Nos interesaban los procesos de negocio, asi que le lanzamos la pregunta.
+<br />Francisco no responde en pocas palabras: Nos tenemos que ocupar de la gestion de compra, de la tienda a los proveedores, negociando los precios.
+<br />Sin olvidar la gestion de venta, tanto al particular como al privado (encargos de pinturas).
+<br />
+<br />-¿Cuales son los objetivos de negocio?-Preguntamos.
+<br />Según las palabras de Francisco, marcar un plan de ventas que cubra los gastos del negocios, y además, aporte un beneficio, claro (risas).
+<br />
+<br />Siguiente pregunta: ¿Sobre que deben informar los empleados? (gastos por kilometraje, dietas, comidas con clientes, otros gastos).
+<br />Nuestros empleados deben informar (y justificar) litros de gasolina debido a desplazamientos, kilometros recorridos y dietas.
+<br />
+<br />Preguntamos a continuacion como se lleva la gestión del inventario, ya que es un punto importarte del proyecto.
+<br />Ya se que es anticuado, pero en un libro, se hace inventario sobre el <a href="#GLO-0007" title="Cantidad de mercancías que se tienen en depósito o almacén">stock</a> disponible, recogiendo las entradas y salidas tanto del almacen, como de la tienda.
+<br />
+<br />¿Que criterio se usa para clasificar los productos en el almacén?
+<br />Según la demanda que tenga, los productos estaran colocados cerca de la entrada, y se dispondra de mayor cantidad, de productos comunes como ?pintura blanca?, colocando mas alejado de la entrada, productos de menor venta, (por ejemplo, colores exoticos o de agatha ruiz de la prada).
+<br />
+<br />Nos pregunto Francisco si los Gastos de mantenimiento de vehiculos se verian reflejados, a lo que contestamos que no, ya que seria un software que se dedica a otros menesteres.
+<br />
+<br />A continuacion nos explico como pedir a un proveedores
+<br />Se comunicaria con la empresa suminstradora, y se acordaria un numero fijo, para que ademas la fabrica haga sus previsiones.
+<br />
+<br />Acerca de quien aporta al proveedor, no fue necesario preguntarle ya que el software estaria fuera del alcance de esto.
+<br />
+<br />Una vez realizadas todas la peliculas, nos despidimos de Francisco y damos por concluida la seccion.
+<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="MET-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Reunión</th>
+<th align="left" valign="top" width="100%">
+Segunda entrevista con el cliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Fecha</th>
+<td align="left" valign="top" colspan="1">20/04/2009</td>
+</tr>
+<tr>
+<th align="left" valign="top">Hora</th>
+<td align="left" valign="top" colspan="1">17:52</td>
+</tr>
+<tr>
+<th align="left" valign="top">Lugar</th>
+<td align="left" valign="top" colspan="1">Residencia de Francisco Segura Martín</td>
+</tr>
+<tr><th align="left" valign="top">Asistentes</th>
+<td align="left" valign="top">
+<ul>
+<li>
+<a href="#STK-0001" title="Álvaro Segura Gómez">
+Álvaro Segura Gómez</a>
+</li>
+<li>
+<a href="#STK-0005" title="Daniel García Howard">
+Daniel García Howard</a>
+</li>
+<li>
+<a href="#STK-0002" title="David Ruiz Enrique">
+David Ruiz Enrique</a>
+</li>
+<li>
+<a href="#STK-0007" title="Francisco Segura Martín">
+Francisco Segura Martín</a>
+</li>
+<li>
+<a href="#STK-0003" title="Juan José Alcazar Cobano">
+Juan José Alcazar Cobano</a>
+</li>
+<li>
+<a href="#STK-0006" title="Luis Toro Japón">
+Luis Toro Japón</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Resultados</th>
+<td align="left" valign="top" colspan="1">En esta segunda entrevista, nos dedicamos a recopilar detalles que habíamos pasado por alto en la primera y dudas que nos habían ido surgiendo durante el desarrollo de la aplicación. Con ésto pudimos ir completando y corrigiendo todos los apartados hechos anteriormente. También nos sirvió para empezar con los digramas de clase, los diagramas de secuencias y las operaciones.
+<br />
+<br />Pedimos al cliente información sobre algún elemento técnico a añadir en el glosario. 
+<br />
+<br />Le enseñamos a nuestro cliente como estaba quedando la aplicación, para así poder corregir errores o añadir nuevas propuestas. 
+<br />Hicimos fotos del laboratorio y el cliente nos proporcionó algunos documentos( facturas, notas de entrega,....) que nos serian de utilidad en nuestro trabajo.</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+</body>
 </html>
