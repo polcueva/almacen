@@ -53,7 +53,7 @@ Ninguno</rem:comments>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice. En primer lugar encontramos la introducción con una descripción de la empresa, de la aplicación y del índice. Continuamos enumerando los participantes en el proyecto, tanto personas como organizaciones. En el apartado siguiente hacemos una descripción del sistema con sus cinco pasos más importantes y sus gráficos correspondientes. Seguidamente describimos los objetivos generales del sistema. Después nos encontramos con el catálogo de requisitos del sistema compuesto por los requisitos de información del sistema, los requisitos funcionales, que a su vez contiene los diagramas de los casos de uso, la definición de los actores y los casos de uso del sistema,las reglas de negocio y los requisitos no funcionales. A continuación tenemos la matriz de rastreabilidad que relaciona los objetivos con los casos de uso, los requisitos de información y los requisitos de restricción. En el glosario, encrontramos una lista de definiciones de palabras que aparecen en el proyecto. Y por último, contiene en los apéndices A y B la documentación y los resumenes de las entrevistas en las que hemos basado la aplicación.<br/><br/></rem:text>
+<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de <rem:ref oid="GLO-0025">pinturas</rem:ref>. Este proceso abarca la venta al publico y la aplicacion de <rem:ref oid="GLO-0025">pinturas</rem:ref> a empresas privadas. Lleva a cabo la gestión de los clientes y los <rem:ref oid="GLO-0026">proveedores</rem:ref>, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, <rem:ref oid="GLO-0026">proveedores</rem:ref>, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice. En primer lugar encontramos la introducción con una descripción de la empresa, de la aplicación y del índice. Continuamos enumerando los participantes en el proyecto, tanto personas como organizaciones. En el apartado siguiente hacemos una descripción del sistema con sus cinco pasos más importantes y sus gráficos correspondientes. Seguidamente describimos los objetivos generales del sistema. Después nos encontramos con el catálogo de requisitos del sistema compuesto por los requisitos de información del sistema, los requisitos funcionales, que a su vez contiene los diagramas de los casos de uso, la definición de los actores y los casos de uso del sistema,las reglas de negocio y los requisitos no funcionales. A continuación tenemos la matriz de rastreabilidad que relaciona los objetivos con los casos de uso, los requisitos de información y los requisitos de restricción. En el glosario, encrontramos una lista de definiciones de palabras que aparecen en el proyecto. Y por último, contiene en los apéndices A y B la documentación y los resumenes de las entrevistas en las que hemos basado la aplicación.<br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -115,7 +115,7 @@ Ninguno</rem:comments>
 <rem:organization
  oid = "ORG-0002">
 <rem:name>
-Andaluza de Pinturas S.A.</rem:name>
+Andaluza de <rem:ref oid="GLO-0025">Pinturas</rem:ref> S.A.</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -327,12 +327,12 @@ El proceso básico de negocio</rem:name>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El sistema de funcionamiento del laboratorio de prótesis dental se basa fundamentalmente en cuatro procesos: compra de pinturas, el proceso de devolución, control de almacén y, por último, el envío de la cuadrilla de pintores.<br/><br/>Estas tareas se realizan con el tradicional sistema de &quot;papel y bolígrafo&quot;, almacenando todos los datos en libretas. <br/><br/>A continuación está detallado el funcionamiento de estos procesos:<br/><br/></rem:text>
+<rem:text>El sistema de funcionamiento del laboratorio de prótesis dental se basa fundamentalmente en cuatro procesos: compra de <rem:ref oid="GLO-0025">pinturas</rem:ref>, el proceso de devolución, control de almacén y, por último, el envío de la <rem:ref oid="GLO-0029">cuadrilla</rem:ref> de pintores.<br/><br/>Estas tareas se realizan con el tradicional sistema de &quot;papel y bolígrafo&quot;, almacenando todos los datos en libretas. <br/><br/>A continuación está detallado el funcionamiento de estos procesos:<br/><br/></rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0012">
 <rem:name>
-Compra de pinturas</rem:name>
+Compra de <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -362,12 +362,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>COMPRA DE PINTURAS:<br/><br/>1)El cliente solicita pinturas al empleado<br/><br/>2)El empleado comprueba las existencias, en caso de haber, prepara el pedido y se lo da al cliente.<br/><br/>3)El cliente abona la cantidad y se termina la operacion.<br/><br/>4)En caso de no haber existencias hace una petición al almacén<br/><br/>5)Este comprueba sus existencias, en caso de tener las envía a la tienda. Si no dispone, hace una peticion a los proveedores.</rem:text>
+<rem:text>COMPRA DE <rem:ref oid="GLO-0025">PINTURAS</rem:ref>:<br/><br/>1)El cliente solicita <rem:ref oid="GLO-0025">pinturas</rem:ref> al empleado<br/><br/>2)El empleado comprueba las existencias, en caso de haber, prepara el pedido y se lo da al cliente.<br/><br/>3)El cliente abona la cantidad y se termina la operacion.<br/><br/>4)En caso de no haber existencias hace una petición al almacén<br/><br/>5)Este comprueba sus existencias, en caso de tener las envía a la tienda. Si no dispone, hace una peticion a los <rem:ref oid="GLO-0026">proveedores</rem:ref>.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
-Compra de pinturas</rem:name>
+Compra de <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -417,12 +417,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>DEVOLUCION DE PRODUCTO:<br/><br/>1)Un cliente se dispone a devolver un producto adquirido con anterioridad. Para ello entrega la <rem:ref oid="GLO-0004">factura</rem:ref> al empleado.<br/><br/>2)El empleado comprueba la <rem:ref oid="GLO-0004">factura</rem:ref>, en caso de estar todo correcto, devuelve el dinero al cliente y lo registra en el libro de cuentas.<br/><br/>3)El cliente termina. Y se suma el producto al <rem:ref oid="GLO-0007">stock</rem:ref>.<br/></rem:text>
+<rem:text>DEVOLUCION DE <rem:ref oid="GLO-0028">PRODUCTO</rem:ref>:<br/><br/>1)Un cliente se dispone a devolver un <rem:ref oid="GLO-0028">producto</rem:ref> adquirido con anterioridad. Para ello entrega la <rem:ref oid="GLO-0004">factura</rem:ref> al empleado.<br/><br/>2)El empleado comprueba la <rem:ref oid="GLO-0004">factura</rem:ref>, en caso de estar todo correcto, devuelve el dinero al cliente y lo registra en el libro de cuentas.<br/><br/>3)El cliente termina. Y se suma el <rem:ref oid="GLO-0028">producto</rem:ref> al <rem:ref oid="GLO-0007">stock</rem:ref>.<br/></rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0002">
 <rem:name>
-Devolucion pinturas</rem:name>
+Devolucion <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -443,7 +443,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0014">
 <rem:name>
-Control de almacen</rem:name>
+Control de <rem:ref oid="GLO-0027">almacen</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -472,7 +472,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>CONTROL DE ALMACEN:<br/><br/>1)La tienda solicita pinturas al almacén.<br/><br/>2)El almacén busca las pinturas y si el <rem:ref oid="GLO-0007">stock</rem:ref> es bajo, solicita productos a los proveedores. Estos elaboran un <rem:ref oid="GLO-0003">presupuesto</rem:ref>, que si es aceptado, se envía posteriormente al almacén.<br/><br/>3)El almacén recibe las <rem:ref oid="GLO-0004">factura</rem:ref>, las abona y suma el <rem:ref oid="GLO-0007">stock</rem:ref><br/><br/>4)En caso de tener <rem:ref oid="GLO-0007">stock</rem:ref> suficiente, no es necesaria ninguna operación adicional.</rem:text>
+<rem:text>CONTROL DE <rem:ref oid="GLO-0027">ALMACEN</rem:ref>:<br/><br/>1)La tienda solicita <rem:ref oid="GLO-0025">pinturas</rem:ref> al almacén.<br/><br/>2)El almacén busca las <rem:ref oid="GLO-0025">pinturas</rem:ref> y si el <rem:ref oid="GLO-0007">stock</rem:ref> es bajo, solicita productos a los <rem:ref oid="GLO-0026">proveedores</rem:ref>. Estos elaboran un <rem:ref oid="GLO-0003">presupuesto</rem:ref>, que si es aceptado, se envía posteriormente al almacén.<br/><br/>3)El almacén recibe las <rem:ref oid="GLO-0004">factura</rem:ref>, las abona y suma el <rem:ref oid="GLO-0007">stock</rem:ref><br/><br/>4)En caso de tener <rem:ref oid="GLO-0007">stock</rem:ref> suficiente, no es necesaria ninguna operación adicional.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0003">
@@ -527,7 +527,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>ENVIO DE PINTORES:<br/><br/>1)Un cliente solicita un <rem:ref oid="GLO-0003">presupuesto</rem:ref> para un trabajo de pintores.<br/><br/>2)El empleado genera dicho <rem:ref oid="GLO-0003">presupuesto</rem:ref> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.<br/><br/>3)El empleado genera un nuevo <rem:ref oid="GLO-0003">presupuesto</rem:ref> y se lo envía nuevamente al cliente para su estudio.<br/><br/>4)Una vez confirmado, envía una confirmacion al empleado.<br/><br/>5)La cuadrilla es enviada para realizar su trabajo.</rem:text>
+<rem:text>ENVIO DE PINTORES:<br/><br/>1)Un cliente solicita un <rem:ref oid="GLO-0003">presupuesto</rem:ref> para un trabajo de pintores.<br/><br/>2)El empleado genera dicho <rem:ref oid="GLO-0003">presupuesto</rem:ref> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.<br/><br/>3)El empleado genera un nuevo <rem:ref oid="GLO-0003">presupuesto</rem:ref> y se lo envía nuevamente al cliente para su estudio.<br/><br/>4)Una vez confirmado, envía una confirmacion al empleado.<br/><br/>5)La <rem:ref oid="GLO-0029">cuadrilla</rem:ref> es enviada para realizar su trabajo.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0004">
@@ -615,12 +615,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
-Controlar el envío de la cuadrilla de pintores, indicando donde deben realizar el trabajo, que tipo de trabajo, y cuanto material van a necesitar. Incluyendo los gastos por transportes y dietas, para una mayor gestión.</rem:description>
+Controlar el envío de la <rem:ref oid="GLO-0029">cuadrilla</rem:ref> de pintores, indicando donde deben realizar el trabajo, que tipo de trabajo, y cuanto material van a necesitar. Incluyendo los gastos por transportes y dietas, para una mayor gestión.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0003">
 <rem:name>
-Gestionar la compra de pinturas</rem:name>
+Gestionar la compra de <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -639,12 +639,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-Gestionar la compra de pinturas: Llevando un moderno control sobre el <rem:ref oid="GLO-0007">stock</rem:ref> de la tienda y almacén. Tambien incluye la facilidad de gestionar pedidos a los proveedores directamente.</rem:description>
+Gestionar la compra de <rem:ref oid="GLO-0025">pinturas</rem:ref>: Llevando un moderno control sobre el <rem:ref oid="GLO-0007">stock</rem:ref> de la tienda y almacén. Tambien incluye la facilidad de gestionar pedidos a los <rem:ref oid="GLO-0026">proveedores</rem:ref> directamente.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0004">
 <rem:name>
-Gestionar la venta de pinturas</rem:name>
+Gestionar la venta de <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -663,7 +663,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-Gestionar la venta de pinturas: Llevando un moderno control sobre el <rem:ref oid="GLO-0007">stock</rem:ref> de la tienda y almacén.</rem:description>
+Gestionar la venta de <rem:ref oid="GLO-0025">pinturas</rem:ref>: Llevando un moderno control sobre el <rem:ref oid="GLO-0007">stock</rem:ref> de la tienda y almacén.</rem:description>
 </rem:objective>
 </rem:section>
 <rem:section
@@ -993,7 +993,7 @@ Ninguno</rem:comments>
 <rem:informationRequirement
  oid = "IRQ-0005">
 <rem:name>
-Información sobre proveedores</rem:name>
+Información sobre <rem:ref oid="GLO-0026">proveedores</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1012,7 +1012,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:relevantConcept>
-sobre los proveedores de la empresa</rem:relevantConcept>
+sobre los <rem:ref oid="GLO-0026">proveedores</rem:ref> de la empresa</rem:relevantConcept>
 <rem:averageLifeTime>
 <rem:value>3</rem:value>
 <rem:timeUnit value = "TUV-0002"/>
@@ -1368,7 +1368,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0007">
 <rem:name>
-Diagrama de caso de uso del subsitema almacen</rem:name>
+Diagrama de caso de uso del subsitema <rem:ref oid="GLO-0027">almacen</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1495,7 +1495,7 @@ Proveedor</rem:name>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>a la empresa que se dedica a suministrar pinturas</rem:actorRole>
+<rem:actorRole>a la empresa que se dedica a suministrar <rem:ref oid="GLO-0025">pinturas</rem:ref></rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -1518,7 +1518,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0028">
 <rem:name>
-Subsistema Almacen</rem:name>
+Subsistema <rem:ref oid="GLO-0027">Almacen</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1535,7 +1535,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Actualizar inventario</rem:name>
+Actualizar <rem:ref oid="GLO-0030">inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1552,11 +1552,11 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0004"/>
 <rem:triggeringEvent>
-el empleado actualiza el inventario</rem:triggeringEvent>
+el empleado actualiza el <rem:ref oid="GLO-0030">inventario</rem:ref></rem:triggeringEvent>
 <rem:precondition>
 </rem:precondition>
 <rem:postcondition>
-El inventario queda actualizado</rem:postcondition>
+El <rem:ref oid="GLO-0030">inventario</rem:ref> queda actualizado</rem:postcondition>
 <rem:frequency>
 <rem:value>
 3
@@ -1567,7 +1567,7 @@ El inventario queda actualizado</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-solicita al sistema actualizar el inventario</rem:description>
+solicita al sistema actualizar el <rem:ref oid="GLO-0030">inventario</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1576,7 +1576,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita los articulos a añadir o restar del inventario</rem:description>
+solicita los articulos a añadir o restar del <rem:ref oid="GLO-0030">inventario</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1603,7 +1603,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-señala si desea añadir o restar inventario</rem:description>
+señala si desea añadir o restar <rem:ref oid="GLO-0030">inventario</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1612,7 +1612,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-actualiza el inventario el inventario con los datos introducidos</rem:description>
+actualiza el <rem:ref oid="GLO-0030">inventario</rem:ref> el <rem:ref oid="GLO-0030">inventario</rem:ref> con los datos introducidos</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1621,7 +1621,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0007">
 <rem:name>
-Solicitar productos a proveedores</rem:name>
+Solicitar productos a <rem:ref oid="GLO-0026">proveedores</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1638,7 +1638,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-el empleado solicita productos a los proveedores.</rem:triggeringEvent>
+el empleado solicita productos a los <rem:ref oid="GLO-0026">proveedores</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
 </rem:precondition>
 <rem:postcondition>
@@ -1748,7 +1748,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-localiza la entrada y posteriormente la actualiza. Si no existe, lo añade. Muestra en pantalla la cantidad actual del producto</rem:description>
+localiza la entrada y posteriormente la actualiza. Si no existe, lo añade. Muestra en pantalla la cantidad actual del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1789,7 +1789,7 @@ un empleado consulta las existencias.</rem:triggeringEvent>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-solicita al sistema  consulta sobre las existencias de un producto</rem:description>
+solicita al sistema  consulta sobre las existencias de un <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1798,7 +1798,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-solicita  qué producto se desea consultar</rem:description>
+solicita  qué <rem:ref oid="GLO-0028">producto</rem:ref> se desea consultar</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1816,7 +1816,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-localiza el producto y muestra en pantalla la cantidad actual del producto</rem:description>
+localiza el <rem:ref oid="GLO-0028">producto</rem:ref> y muestra en pantalla la cantidad actual del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1911,7 +1911,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0004">
 <rem:name>
-Devolucion de producto</rem:name>
+Devolucion de <rem:ref oid="GLO-0028">producto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1928,7 +1928,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:triggeringEvent>
-se realiza la devolución de un producto.</rem:triggeringEvent>
+se realiza la devolución de un <rem:ref oid="GLO-0028">producto</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
 La <rem:ref oid="GLO-0004">factura</rem:ref> esta registrada en el sistema.</rem:precondition>
 <rem:postcondition>
@@ -1943,7 +1943,7 @@ El <rem:ref oid="GLO-0007">stock</rem:ref> de los productos devueltos se ha actu
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-solicita al sistema la devolución de un producto</rem:description>
+solicita al sistema la devolución de un <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2455,7 +2455,7 @@ Sólo se permiten trabajos  de pintura a empresas y corporativos.</rem:descriptio
 <rem:constraintRequirement
  oid = "CRQ-0003">
 <rem:name>
-Restricción producto descatalogado</rem:name>
+Restricción <rem:ref oid="GLO-0028">producto</rem:ref> descatalogado</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2474,7 +2474,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-No se permitirá la venta de un producto que no esté en catalogo.</rem:description>
+No se permitirá la venta de un <rem:ref oid="GLO-0028">producto</rem:ref> que no esté en catalogo.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0004">
@@ -2811,6 +2811,23 @@ Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>7 </rem:number>
 <rem:glossaryItem
+ oid = "GLO-0027">
+<rem:name>
+<rem:ref oid="GLO-0027">Almacen</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
  oid = "GLO-0012">
 <rem:name>
 <rem:ref oid="GLO-0012">Barniz</rem:ref></rem:name>
@@ -2825,7 +2842,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Disolución de una o más sustancias resinosas en un líquido que al aire se volatiliza o se deseca. Con ella se da a las pinturas, maderas y otras cosas, con objeto de preservarlas de la acción de la atmósfera, del polvo, etc., y para que adquieran lustre</rem:text>
+<rem:text>Disolución de una o más sustancias resinosas en un líquido que al aire se volatiliza o se deseca. Con ella se da a las <rem:ref oid="GLO-0025">pinturas</rem:ref>, maderas y otras cosas, con objeto de preservarlas de la acción de la atmósfera, del polvo, etc., y para que adquieran lustre</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0018">
@@ -2860,6 +2877,23 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Es tener en ficha a todas las personas que alguna vez les hemos vendido algo y hacer que nos mantenga en contacto mutuo. La mayor ventaja es que los clientes en cartera no nos dan trabajo, lo que nos permite tener centenares, incluso millares de clientes en cartera</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0029">
+<rem:name>
+<rem:ref oid="GLO-0029">Cuadrilla</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0015">
@@ -2911,6 +2945,23 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0030">
+<rem:name>
+<rem:ref oid="GLO-0030">Inventario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0006">
@@ -2981,6 +3032,25 @@ Ninguno</rem:comments>
 <rem:text>Es una pintura especial para zonas de la casa que anteriormente estuvieron afectadas por la humedad. Eso sí, sólo deberemos usarla después de haber tratado la humedad en la pared. Si no la pintura acabará desprendiéndose o agrietándose tarde o temprano</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
+ oid = "GLO-0025">
+<rem:name>
+<rem:ref oid="GLO-0025">Pinturas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Color preparado para pintar.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
  oid = "GLO-0009">
 <rem:name>
 <rem:ref oid="GLO-0009">Pinturas Plasticas</rem:ref></rem:name>
@@ -2995,7 +3065,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Estas pinturas están compuestas por una resina sintética (vinílica o acrílica) que se haya emulsionada en agua. Son las mas indicadas para el pintado de nuestras paredes,. Para su dilución emplearemos agua, así como para la limpieza de los utensilios. Son inodoras y secan rápidamente, las podemos encontrar en acabado mate, satinado o brillante, siendo las de calidad perfectamente lavables</rem:text>
+<rem:text>Estas <rem:ref oid="GLO-0025">pinturas</rem:ref> están compuestas por una resina sintética (vinílica o acrílica) que se haya emulsionada en agua. Son las mas indicadas para el pintado de nuestras paredes,. Para su dilución emplearemos agua, así como para la limpieza de los utensilios. Son inodoras y secan rápidamente, las podemos encontrar en acabado mate, satinado o brillante, siendo las de calidad perfectamente lavables</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0013">
@@ -3047,6 +3117,40 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0028">
+<rem:name>
+<rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0026">
+<rem:name>
+<rem:ref oid="GLO-0026">Proveedores</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>17</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0019">
@@ -3161,8 +3265,8 @@ Ninguno</rem:comments>
 <rem:hour>12</rem:hour>
 <rem:minute>54</rem:minute>
 </rem:time>
-<rem:place>Tienda Andaluza De Pinturas S.A.</rem:place>
-<rem:results>Reunion con el representante de Andaluza de Pinturas S.A.<br/><br/>Tras las presentaciones, no nos andamos con rodeos y empezamos la entrevista con una pregunta directa -¿En que consiste el negocio?- A lo que Francisco nos respondió: Nos dedicamos a la venta de pinturas al por menor y la aplicación de pinturas por parte de una plantilla nuestra.<br/><br/>Lanzamos la siguiente pregunta -¿En que consiste la actividad normal?-<br/>La respuesta fue breve. -Suministramos pinturas al publico.<br/>Una plantilla de trabajadores, hace frente a encargos de empresas. (Pintar edificios, etc...)<br/><br/>Decidimos preguntar sobre el desarrollo de un proceso, y obtuvimos la respuesta siguiente:<br/>“De cara al publico, se comprueba el <rem:ref oid="GLO-0007">stock</rem:ref> del producto en concreto, en caso de disponer de <rem:ref oid="GLO-0007">stock</rem:ref>, se realiza el cambio en el inventario. Y en caso contrario, se realizararia un pedido al almacen propio.<br/>Es necesario tener un <rem:ref oid="GLO-0007">stock</rem:ref> minino de seguridad, que en el momento de que salte la alarma sobre minimos, realizara una peticion al proveedor.<br/><br/>En caso de no disponer de suficiente cantidad de pinturas en el almacen, debido a un encargo “grande” de una empresa, se realizaria un pedido a los proveedores.”<br/><br/>Nos interesaban los procesos de negocio, asi que le lanzamos la pregunta.<br/>Francisco no responde en pocas palabras: Nos tenemos que ocupar de la gestion de compra, de la tienda a los proveedores, negociando los precios.<br/>Sin olvidar la gestion de venta, tanto al particular como al privado (encargos de pinturas).<br/><br/>-¿Cuales son los objetivos de negocio?-Preguntamos.<br/>Según las palabras de Francisco, marcar un plan de ventas que cubra los gastos del negocios, y además, aporte un beneficio, claro (risas).<br/><br/>Siguiente pregunta: ¿Sobre que deben informar los empleados? (gastos por kilometraje, dietas, comidas con clientes, otros gastos).<br/>Nuestros empleados deben informar (y justificar) litros de gasolina debido a desplazamientos, kilometros recorridos y dietas.<br/><br/>Preguntamos a continuacion como se lleva la gestión del inventario, ya que es un punto importarte del proyecto.<br/>Ya se que es anticuado, pero en un libro, se hace inventario sobre el <rem:ref oid="GLO-0007">stock</rem:ref> disponible, recogiendo las entradas y salidas tanto del almacen, como de la tienda.<br/><br/>¿Que criterio se usa para clasificar los productos en el almacén?<br/>Según la demanda que tenga, los productos estaran colocados cerca de la entrada, y se dispondra de mayor cantidad, de productos comunes como “pintura blanca”, colocando mas alejado de la entrada, productos de menor venta, (por ejemplo, colores exoticos o de agatha ruiz de la prada).<br/><br/>Nos pregunto Francisco si los Gastos de mantenimiento de vehiculos se verian reflejados, a lo que contestamos que no, ya que seria un software que se dedica a otros menesteres.<br/><br/>A continuacion nos explico como pedir a un proveedores<br/>Se comunicaria con la empresa suminstradora, y se acordaria un numero fijo, para que ademas la fabrica haga sus previsiones.<br/> <br/>Acerca de quien aporta al proveedor, no fue necesario preguntarle ya que el software estaria fuera del alcance de esto.<br/><br/>Una vez realizadas todas la peliculas, nos despidimos de Francisco y damos por concluida la seccion.<br/></rem:results>
+<rem:place>Tienda Andaluza De <rem:ref oid="GLO-0025">Pinturas</rem:ref> S.A.</rem:place>
+<rem:results>Reunion con el representante de Andaluza de <rem:ref oid="GLO-0025">Pinturas</rem:ref> S.A.<br/><br/>Tras las presentaciones, no nos andamos con rodeos y empezamos la entrevista con una pregunta directa -¿En que consiste el negocio?- A lo que Francisco nos respondió: Nos dedicamos a la venta de <rem:ref oid="GLO-0025">pinturas</rem:ref> al por menor y la aplicación de <rem:ref oid="GLO-0025">pinturas</rem:ref> por parte de una plantilla nuestra.<br/><br/>Lanzamos la siguiente pregunta -¿En que consiste la actividad normal?-<br/>La respuesta fue breve. -Suministramos <rem:ref oid="GLO-0025">pinturas</rem:ref> al publico.<br/>Una plantilla de trabajadores, hace frente a encargos de empresas. (Pintar edificios, etc...)<br/><br/>Decidimos preguntar sobre el desarrollo de un proceso, y obtuvimos la respuesta siguiente:<br/>“De cara al publico, se comprueba el <rem:ref oid="GLO-0007">stock</rem:ref> del <rem:ref oid="GLO-0028">producto</rem:ref> en concreto, en caso de disponer de <rem:ref oid="GLO-0007">stock</rem:ref>, se realiza el cambio en el <rem:ref oid="GLO-0030">inventario</rem:ref>. Y en caso contrario, se realizararia un pedido al <rem:ref oid="GLO-0027">almacen</rem:ref> propio.<br/>Es necesario tener un <rem:ref oid="GLO-0007">stock</rem:ref> minino de seguridad, que en el momento de que salte la alarma sobre minimos, realizara una peticion al proveedor.<br/><br/>En caso de no disponer de suficiente cantidad de <rem:ref oid="GLO-0025">pinturas</rem:ref> en el <rem:ref oid="GLO-0027">almacen</rem:ref>, debido a un encargo “grande” de una empresa, se realizaria un pedido a los <rem:ref oid="GLO-0026">proveedores</rem:ref>.”<br/><br/>Nos interesaban los procesos de negocio, asi que le lanzamos la pregunta.<br/>Francisco no responde en pocas palabras: Nos tenemos que ocupar de la gestion de compra, de la tienda a los <rem:ref oid="GLO-0026">proveedores</rem:ref>, negociando los precios.<br/>Sin olvidar la gestion de venta, tanto al particular como al privado (encargos de <rem:ref oid="GLO-0025">pinturas</rem:ref>).<br/><br/>-¿Cuales son los objetivos de negocio?-Preguntamos.<br/>Según las palabras de Francisco, marcar un plan de ventas que cubra los gastos del negocios, y además, aporte un beneficio, claro (risas).<br/><br/>Siguiente pregunta: ¿Sobre que deben informar los empleados? (gastos por kilometraje, dietas, comidas con clientes, otros gastos).<br/>Nuestros empleados deben informar (y justificar) litros de gasolina debido a desplazamientos, kilometros recorridos y dietas.<br/><br/>Preguntamos a continuacion como se lleva la gestión del <rem:ref oid="GLO-0030">inventario</rem:ref>, ya que es un punto importarte del proyecto.<br/>Ya se que es anticuado, pero en un libro, se hace <rem:ref oid="GLO-0030">inventario</rem:ref> sobre el <rem:ref oid="GLO-0007">stock</rem:ref> disponible, recogiendo las entradas y salidas tanto del <rem:ref oid="GLO-0027">almacen</rem:ref>, como de la tienda.<br/><br/>¿Que criterio se usa para clasificar los productos en el almacén?<br/>Según la demanda que tenga, los productos estaran colocados cerca de la entrada, y se dispondra de mayor cantidad, de productos comunes como “pintura blanca”, colocando mas alejado de la entrada, productos de menor venta, (por ejemplo, colores exoticos o de agatha ruiz de la prada).<br/><br/>Nos pregunto Francisco si los Gastos de mantenimiento de vehiculos se verian reflejados, a lo que contestamos que no, ya que seria un software que se dedica a otros menesteres.<br/><br/>A continuacion nos explico como pedir a un <rem:ref oid="GLO-0026">proveedores</rem:ref><br/>Se comunicaria con la empresa suminstradora, y se acordaria un numero fijo, para que ademas la fabrica haga sus previsiones.<br/> <br/>Acerca de quien aporta al proveedor, no fue necesario preguntarle ya que el software estaria fuera del alcance de esto.<br/><br/>Una vez realizadas todas la peliculas, nos despidimos de Francisco y damos por concluida la seccion.<br/></rem:results>
 	<rem:attenders stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 STK-0007 "/>
 </rem:meeting>
 <rem:meeting
@@ -3245,7 +3349,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice, que está compuesto por una introducción que incluye una descripción del contenido del documento y del sistema a desarrollar; el modelo estático del sistema donde se encuentran los diagramas de clases correspondientes a los requisitos y restricciones de información; el modelo dinámico del sistema que consta de los diagramas de secuencias correspondientes a los casos de uso del sistema; el modelo funcional del sistema en el que se incluye una especificación de las operaciones del sistema y por último el prototipo de interfaz de usuario que contiene la interfaz de usuario correspondiente a los casos de uso realizados</rem:text>
+<rem:text>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de <rem:ref oid="GLO-0025">pinturas</rem:ref>. Este proceso abarca la venta al publico y la aplicacion de <rem:ref oid="GLO-0025">pinturas</rem:ref> a empresas privadas. Lleva a cabo la gestión de los clientes y los <rem:ref oid="GLO-0026">proveedores</rem:ref>, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. <br/><br/>Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, <rem:ref oid="GLO-0026">proveedores</rem:ref>, encargos, entregas y facturación. <br/><br/>A continuación procedemos con la descripción del índice, que está compuesto por una introducción que incluye una descripción del contenido del documento y del sistema a desarrollar; el modelo estático del sistema donde se encuentran los diagramas de clases correspondientes a los requisitos y restricciones de información; el modelo dinámico del sistema que consta de los diagramas de secuencias correspondientes a los casos de uso del sistema; el modelo funcional del sistema en el que se incluye una especificación de las operaciones del sistema y por último el prototipo de interfaz de usuario que contiene la interfaz de usuario correspondiente a los casos de uso realizados</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -3305,7 +3409,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0031">
 <rem:name>
-Devolucion Producto</rem:name>
+Devolucion <rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3322,7 +3426,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0010">
 <rem:name>
-Devolucion Producto</rem:name>
+Devolucion <rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3564,7 +3668,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0038">
 <rem:name>
-Actualizar Inventario</rem:name>
+Actualizar <rem:ref oid="GLO-0030">Inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3581,7 +3685,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0017">
 <rem:name>
-Actualizar Inventario</rem:name>
+Actualizar <rem:ref oid="GLO-0030">Inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3689,9 +3793,9 @@ Ninguno</rem:comments>
 Actualizar el libro de cuentas</rem:description>
 <rem:parameter oid = "PAR-0106" baseType = "PVT-0004">
 <rem:name>
-producto</rem:name>
+<rem:ref oid="GLO-0028">producto</rem:ref></rem:name>
 <rem:description>
-Nombre del producto</rem:description>
+Nombre del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3699,7 +3803,7 @@ Ninguno</rem:comments>
 <rem:name>
 Cantidad</rem:name>
 <rem:description>
-Cantidad del producto</rem:description>
+Cantidad del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3707,7 +3811,7 @@ Ninguno</rem:comments>
 <rem:name>
 Precio</rem:name>
 <rem:description>
-Precio del producto</rem:description>
+Precio del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3815,7 +3919,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0003">
 <rem:name>
-Producto A Consultar</rem:name>
+<rem:ref oid="GLO-0028">Producto</rem:ref> A Consultar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3831,9 +3935,9 @@ Ninguno</rem:comments>
 Consultar las existencias<br/></rem:description>
 <rem:parameter oid = "PAR-0115" baseType = "PVT-0004">
 <rem:name>
-Producto</rem:name>
+<rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:description>
-indica el producto a consultar</rem:description>
+indica el <rem:ref oid="GLO-0028">producto</rem:ref> a consultar</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -3869,7 +3973,7 @@ Ninguno</rem:comments>
 <rem:systemOperation
  oid = "SOP-0004">
 <rem:name>
-Devolucion Producto</rem:name>
+Devolucion <rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4003,7 +4107,7 @@ Ninguno</rem:comments>
 <rem:name>
 codProdcuto</rem:name>
 <rem:description>
-el código del producto</rem:description>
+el código del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
