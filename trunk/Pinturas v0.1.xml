@@ -1189,32 +1189,27 @@ Linea de pedido</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-<rem:tbd/></rem:relevantConcept>
+sobre las lineas de pedido</rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>2</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>5</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>20</rem:value>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0102">
 <rem:description>
@@ -1242,31 +1237,27 @@ Linea de <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-<rem:tbd/></rem:relevantConcept>
+sobre las lineas de <rem:ref oid="GLO-0004">factura</rem:ref></rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>5</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>20</rem:value>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0104">
 <rem:description>
@@ -1288,31 +1279,27 @@ Linea de <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
 <rem:relevantConcept>
-</rem:relevantConcept>
+sobre la linea de <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:relevantConcept>
 <rem:averageLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
 </rem:averageLifeTime>
 <rem:maximumLifeTime>
-<rem:tbd/>
+<rem:value>3</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
 </rem:maximumLifeTime>
-<rem:averageOcurrences><rem:tbd/>
+<rem:averageOcurrences><rem:value>5</rem:value>
 </rem:averageOcurrences>
-<rem:maximumOcurrences><rem:tbd/>
+<rem:maximumOcurrences><rem:value>20</rem:value>
 </rem:maximumOcurrences>
 <rem:specificData oid = "DAT-0105">
 <rem:description>
