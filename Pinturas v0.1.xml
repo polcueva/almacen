@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "D:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Pinturas v0</rem:name>
@@ -224,7 +224,7 @@ David Ruiz Enrique</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Alumno</rem:stakeholderRole>
@@ -244,7 +244,7 @@ Juan José Alcazar Cobano</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Alumno</rem:stakeholderRole>
@@ -264,7 +264,7 @@ Daniel García Howard</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Alumno</rem:stakeholderRole>
@@ -284,7 +284,7 @@ Luis Toro Japón</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:stakeholderRole>Alumno</rem:stakeholderRole>
@@ -360,6 +360,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>COMPRA DE <rem:ref oid="GLO-0025">PINTURAS</rem:ref>:<br/><br/>1)El cliente solicita <rem:ref oid="GLO-0025">pinturas</rem:ref> al empleado<br/><br/>2)El empleado comprueba las existencias, en caso de haber, prepara el pedido y se lo da al cliente.<br/><br/>3)El cliente abona la cantidad y se termina la operacion.<br/><br/>4)En caso de no haber existencias hace una petición al almacén<br/><br/>5)Este comprueba sus existencias, en caso de tener las envía a la tienda. Si no dispone, hace una peticion a los <rem:ref oid="GLO-0026">proveedores</rem:ref>.</rem:text>
@@ -415,6 +416,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>DEVOLUCION DE <rem:ref oid="GLO-0028">PRODUCTO</rem:ref>:<br/><br/>1)Un cliente se dispone a devolver un <rem:ref oid="GLO-0028">producto</rem:ref> adquirido con anterioridad. Para ello entrega la <rem:ref oid="GLO-0004">factura</rem:ref> al empleado.<br/><br/>2)El empleado comprueba la <rem:ref oid="GLO-0004">factura</rem:ref>, en caso de estar todo correcto, devuelve el dinero al cliente y lo registra en el libro de cuentas.<br/><br/>3)El cliente termina. Y se suma el <rem:ref oid="GLO-0028">producto</rem:ref> al <rem:ref oid="GLO-0007">stock</rem:ref>.<br/></rem:text>
@@ -470,6 +472,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>CONTROL DE <rem:ref oid="GLO-0027">ALMACEN</rem:ref>:<br/><br/>1)La tienda solicita <rem:ref oid="GLO-0025">pinturas</rem:ref> al almacén.<br/><br/>2)El almacén busca las <rem:ref oid="GLO-0025">pinturas</rem:ref> y si el <rem:ref oid="GLO-0007">stock</rem:ref> es bajo, solicita productos a los <rem:ref oid="GLO-0026">proveedores</rem:ref>. Estos elaboran un <rem:ref oid="GLO-0003">presupuesto</rem:ref>, que si es aceptado, se envía posteriormente al almacén.<br/><br/>3)El almacén recibe las <rem:ref oid="GLO-0004">factura</rem:ref>, las abona y suma el <rem:ref oid="GLO-0007">stock</rem:ref><br/><br/>4)En caso de tener <rem:ref oid="GLO-0007">stock</rem:ref> suficiente, no es necesaria ninguna operación adicional.</rem:text>
@@ -525,6 +528,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>ENVIO DE PINTORES:<br/><br/>1)Un cliente solicita un <rem:ref oid="GLO-0003">presupuesto</rem:ref> para un trabajo de pintores.<br/><br/>2)El empleado genera dicho <rem:ref oid="GLO-0003">presupuesto</rem:ref> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.<br/><br/>3)El empleado genera un nuevo <rem:ref oid="GLO-0003">presupuesto</rem:ref> y se lo envía nuevamente al cliente para su estudio.<br/><br/>4)Una vez confirmado, envía una confirmacion al empleado.<br/><br/>5)La <rem:ref oid="GLO-0029">cuadrilla</rem:ref> es enviada para realizar su trabajo.</rem:text>
@@ -895,7 +899,7 @@ Información sobre productos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -955,7 +959,7 @@ Información sobre pedidos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1003,7 +1007,7 @@ Información sobre <rem:ref oid="GLO-0026">proveedores</rem:ref></rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1075,7 +1079,7 @@ Información sobre presupuestos</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1135,7 +1139,7 @@ Información sobre facturas</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1189,7 +1193,7 @@ Linea de pedido</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1237,7 +1241,7 @@ Linea de <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1279,7 +1283,7 @@ Linea de <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1378,6 +1382,7 @@ Diagrama de caso de uso del subsitema <rem:ref oid="GLO-0027">almacen</rem:ref><
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -1397,6 +1402,7 @@ Diagrama de caso de uso del subsistema ventas</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -1416,6 +1422,7 @@ Diagrama de caso de uso del subsistema <rem:ref oid="GLO-0003">presupuesto</rem:
 <rem:day>11</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -1453,7 +1460,7 @@ Empleado</rem:name>
 <rem:day>11</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1472,7 +1479,7 @@ Cliente</rem:name>
 <rem:day>11</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1491,7 +1498,7 @@ Proveedor</rem:name>
 <rem:day>11</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1545,6 +1552,7 @@ Actualizar <rem:ref oid="GLO-0030">inventario</rem:ref></rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -1631,6 +1639,7 @@ Solicitar productos a <rem:ref oid="GLO-0026">proveedores</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1699,6 +1708,7 @@ Actualizar libro de ventas</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1767,6 +1777,7 @@ Consultar existencias</rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1853,6 +1864,7 @@ Comprobar facturas</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -1921,6 +1933,7 @@ Devolucion de <rem:ref oid="GLO-0028">producto</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -2016,6 +2029,7 @@ Hacer <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -2156,6 +2170,7 @@ Dar de alta a cliente</rem:name>
 <rem:day>19</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0003"/>
@@ -2224,6 +2239,7 @@ Hacer <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -2310,6 +2326,7 @@ Modificar <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:name>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
@@ -2441,7 +2458,7 @@ Resticción de trabajos de pintura</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2465,7 +2482,7 @@ Restricción <rem:ref oid="GLO-0028">producto</rem:ref> descatalogado</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2485,11 +2502,11 @@ Restricción de venta a clientes de riesgo</rem:name>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2009</rem:year>
-<rem:month>5</rem:month>
+<rem:month>6</rem:month>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2531,7 +2548,7 @@ Compatibilidad</rem:name>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2823,6 +2840,7 @@ Ninguno</rem:comments>
 <rem:day>17</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Edificio o local donde se depositan géneros de cualquier especie, generalmente mercancías</rem:text>
@@ -2840,6 +2858,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Disolución de una o más sustancias resinosas en un líquido que al aire se volatiliza o se deseca. Con ella se da a las <rem:ref oid="GLO-0025">pinturas</rem:ref>, maderas y otras cosas, con objeto de preservarlas de la acción de la atmósfera, del polvo, etc., y para que adquieran lustre</rem:text>
@@ -2857,6 +2876,7 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Instrumento de pintura de fachadas utilizado para superficies más reducidas y acabados más precisos que el <rem:ref oid="GLO-0017">rodillo</rem:ref> <br/></rem:text>
@@ -2874,6 +2894,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Es tener en ficha a todas las personas que alguna vez les hemos vendido algo y hacer que nos mantenga en contacto mutuo. La mayor ventaja es que los clientes en cartera no nos dan trabajo, lo que nos permite tener centenares, incluso millares de clientes en cartera</rem:text>
@@ -2891,6 +2912,7 @@ Ninguno</rem:comments>
 <rem:day>17</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Grupo de personas reunidas para el desempeño de algunos oficios o para ciertos fines</rem:text>
@@ -2908,6 +2930,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Se caracterizan por llevar agua como disolvente, dando al mismo tiempo un alto brillo. En la actualidad las resinas mas utilizadas para su fabricación son acrílicas en emulsión, por lo que también se las llama esmaltes acrílicos al agua. Destacar su color de gran permanencia así como la facilidad de limpieza de los utensilios de trabajo con agua</rem:text>
@@ -2925,6 +2948,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Formulados a base de resinas alquímicas, precisan de disolvente para diluirlas y para su limpieza. Secan entre 5 y 10 horas, siendo su acabado duro, resistente y lavable. Se fabrican en acabados brillantes para el exterior y satinado y mate para interiores</rem:text>
@@ -2942,6 +2966,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales</rem:text>
@@ -2959,6 +2984,7 @@ Ninguno</rem:comments>
 <rem:day>17</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Libro en el que periódicamente se han de hacer constar todos los bienes y derechos del activo y todas las deudas y obligaciones del pasivo de cada comerciante, persona natural o jurídica, y balance general de su giro.</rem:text>
@@ -2976,6 +3002,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cuaderno donde se apuntan los ingresos / gastos que tienen lugar para llevar un mejor control de la gestión de las finanzas de la empresa</rem:text>
@@ -2993,6 +3020,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Relación nominal de los individuos que en una oficina pública o particular han de percibir haberes y justificar con su firma haberlos recibido</rem:text>
@@ -3010,6 +3038,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Representa un <rem:ref oid="GLO-0003">presupuesto</rem:ref> que tiene tambien funcion de <rem:ref oid="GLO-0004">factura</rem:ref></rem:text>
@@ -3027,6 +3056,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Es una pintura especial para zonas de la casa que anteriormente estuvieron afectadas por la humedad. Eso sí, sólo deberemos usarla después de haber tratado la humedad en la pared. Si no la pintura acabará desprendiéndose o agrietándose tarde o temprano</rem:text>
@@ -3063,6 +3093,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Estas <rem:ref oid="GLO-0025">pinturas</rem:ref> están compuestas por una resina sintética (vinílica o acrílica) que se haya emulsionada en agua. Son las mas indicadas para el pintado de nuestras paredes,. Para su dilución emplearemos agua, así como para la limpieza de los utensilios. Son inodoras y secan rápidamente, las podemos encontrar en acabado mate, satinado o brillante, siendo las de calidad perfectamente lavables</rem:text>
@@ -3080,6 +3111,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Están compuestas por una base de resina de caucho tratada químicamente con cloro, consiguiendo una gran resistencia al agua y a sustancias agresivas como los ácidos. Se utilizan para el pintado de instalaciones industriales y deportivas, así como para piscinas. Su secado es rápido y su dilución y limpieza es a base de disolvente</rem:text>
@@ -3097,6 +3129,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Compuestas de resina, incorporan una cantidad de aceite, generalmente de linaza. Su secado es mas lento que el de las sintéticas (10-15 horas), siendo su dureza y brillo de calidad inferior. Son lavables</rem:text>
@@ -3114,6 +3147,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación</rem:text>
@@ -3131,6 +3165,7 @@ Ninguno</rem:comments>
 <rem:day>17</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cosa producida</rem:text>
@@ -3148,6 +3183,7 @@ Ninguno</rem:comments>
 <rem:day>17</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Persona o empresa que provee o abastece de todo lo necesario para un fin a grandes grupos, asociaciones, comunidades, etc</rem:text>
@@ -3165,6 +3201,7 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Herramienta utlizada para el tratamiento de la fachada previa a la pintura para elminar sustancias indeseadas en la pared como el musgo.</rem:text>
@@ -3182,6 +3219,7 @@ Ninguno</rem:comments>
 <rem:day>26</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Herramienta utllizada para pintar superficies largas de fachadas.</rem:text>
@@ -3199,6 +3237,7 @@ Ninguno</rem:comments>
 <rem:day>25</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:text>Cantidad de mercancías que se tienen en depósito o almacén</rem:text>
@@ -3254,6 +3293,7 @@ Primera entrevista con el cliente</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:date>
@@ -3282,7 +3322,7 @@ Segunda entrevista con el cliente</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
