@@ -3422,6 +3422,7 @@ Diagrama de Clases</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3476,6 +3477,7 @@ Devolucion <rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3503,7 +3505,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0011">
 <rem:name>
-</rem:name>
+Hacer <rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3513,6 +3515,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3550,6 +3553,7 @@ Hacer <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3587,6 +3591,7 @@ Modificar <rem:ref oid="GLO-0003">Presupuesto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3624,6 +3629,7 @@ Comprobar <rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3661,6 +3667,7 @@ Alta Empleado</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3698,6 +3705,7 @@ Hacer Pedido Proveedor</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3735,6 +3743,7 @@ Actualizar <rem:ref oid="GLO-0030">Inventario</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3772,6 +3781,7 @@ Consultar Existencias</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
@@ -3800,7 +3810,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0040">
 <rem:name>
-Operacion actualizar libro de cuentas</rem:name>
+Operacion actualizar <rem:ref oid="GLO-0030">Inventario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3827,6 +3837,7 @@ ProductoActualiza</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -3907,6 +3918,7 @@ ComprobarFactura</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -3969,6 +3981,7 @@ Ninguno</rem:comments>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4023,6 +4036,7 @@ Devolucion <rem:ref oid="GLO-0028">Producto</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4077,6 +4091,7 @@ obtener <rem:ref oid="GLO-0004">factura</rem:ref></rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4131,6 +4146,7 @@ Añadir Productos</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4213,6 +4229,7 @@ creaFactura</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4269,6 +4286,7 @@ CreaRelacionClienteFactura</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4333,6 +4351,7 @@ HacerPago</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4398,6 +4417,7 @@ ObtenerPresupuesto</rem:name>
 <rem:day>16</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
