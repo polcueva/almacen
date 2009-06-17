@@ -218,9 +218,9 @@ Prototipo de interfaz de usuario</a>
 <a name="SEC-0023" />
 <h1 align="left">1 
 Introducción</h1><a name="PRG-0024" />
-<p>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de pinturas. Este proceso abarca la venta al publico y la aplicacion de pinturas a empresas privadas. Lleva a cabo la gestión de los clientes y los proveedores, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. 
+<p>La empresa para la que estamos desarrollando la aplicación basa su trabajo en la venta de <a href="#GLO-0025" title="Color preparado para pintar.">pinturas</a>. Este proceso abarca la venta al publico y la aplicacion de <a href="#GLO-0025" title="Color preparado para pintar.">pinturas</a> a empresas privadas. Lleva a cabo la gestión de los clientes y los <a href="#GLO-0026" title="">proveedores</a>, como puede ser el alta, la baja o modificación de sus datos. También realiza una gestión del almacén, llevando el control de las existencias, desde que realizamos un pedido hasta que recibimos el material. 
 <br />
-<br />Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, proveedores, encargos, entregas y facturación. 
+<br />Nuestro cliente, después de haber observado que muchas de sus tareas cotidianas eran muy repetitivas, pensó en la idea de automatizar este tipo de operaciones solucionando problemas como la pérdida de información debido a la acumulación de libretas, ya que actualmente todo este trabajo se realiza a mano provocando algunos fallos por descuidos y olvidos. Nuestra aplicación daría más comodidad y facilidad a la hora de consultar y registrar los datos de clientes, <a href="#GLO-0026" title="">proveedores</a>, encargos, entregas y facturación. 
 <br />
 <br />A continuación procedemos con la descripción del índice, que está compuesto por una introducción que incluye una descripción del contenido del documento y del sistema a desarrollar; el modelo estático del sistema donde se encuentran los diagramas de clases correspondientes a los requisitos y restricciones de información; el modelo dinámico del sistema que consta de los diagramas de secuencias correspondientes a los casos de uso del sistema; el modelo funcional del sistema en el que se incluye una especificación de las operaciones del sistema y por último el prototipo de interfaz de usuario que contiene la interfaz de usuario correspondiente a los casos de uso realizados</p>
 <a name="SEC-0024" />
@@ -360,20 +360,22 @@ Actualizar el libro de cuentas</td>
 <th align="left" valign="top">Parámetros</th>
 <td align="left" valign="top">
 <a name="PAR-0106" />
-<code>
-producto : <code>
+<code> producto : <code>
 String</code> -- <em>
-Nombre del producto</em></code><br />
+Nombre del <a href="#GLO-0028" title="">producto</a>
+</em></code><br />
 <a name="PAR-0107" />
 <code>
 Cantidad : <code>
 Integer</code> -- <em>
-Cantidad del producto</em></code><br />
+Cantidad del <a href="#GLO-0028" title="">producto</a>
+</em></code><br />
 <a name="PAR-0108" />
 <code>
 Precio : <code>
 Real</code> -- <em>
-Precio del producto</em></code><br />
+Precio del <a href="#GLO-0028" title="">producto</a>
+</em></code><br />
 </td>
 </tr>
 <tr>
@@ -495,8 +497,7 @@ Operacion consultar existencias</h2><a name="SOP-0003" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">SOP-0003</th>
-<th align="left" valign="top" width="100%">
-Producto A Consultar</th>
+<th align="left" valign="top" width="100%"> Producto A Consultar</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -525,10 +526,9 @@ Consultar las existencias
 <th align="left" valign="top">Parámetros</th>
 <td align="left" valign="top">
 <a name="PAR-0115" />
-<code>
-Producto : <code>
+<code> Producto : <code>
 String</code> -- <em>
-indica el producto a consultar</em></code><br />
+indica el <a href="#GLO-0028" title="">producto</a> a consultar</em></code><br />
 </td>
 </tr>
 <tr>
@@ -755,7 +755,8 @@ el numero de la <a href="#GLO-0004" title="Cuenta que los factores dan del coste
 <code>
 codProdcuto : <code>
 Integer</code> -- <em>
-el código del producto</em></code><br />
+el código del <a href="#GLO-0028" title="">producto</a>
+</em></code><br />
 <a name="PAR-0128" />
 <code>
 cantidad : <code>
