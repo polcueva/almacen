@@ -1188,9 +1188,418 @@ Ninguno</td>
 <h2 align="left">4.6 
 Operacion hacer presupuesto</h2><a name="SEC-0046" />
 <h2 align="left">4.7 
-Operacion modificar presupuesto</h2><a name="SEC-0047" />
+Operacion modificar presupuesto</h2><a name="SOP-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0011</th>
+<th align="left" valign="top" width="100%">
+AñadirLineaProducto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 17/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0002">
+David Ruiz Enrique</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Añade una linea de <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0149" />
+<code>
+vNumero : <code>
+String</code> -- <em>
+el numero del <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>
+</em></code><br />
+<a name="PAR-0150" />
+<code>
+vCodigo : <code>
+Integer</code> -- <em>
+el codigo </em></code><br />
+<a name="PAR-0151" />
+<code>
+vPrecio : <code>
+Real</code> -- <em>
+el precio del <a href="#GLO-0028" title="Cosa producida">producto</a>
+</em></code><br />
+<a name="PAR-0152" />
+<code>
+vCantidad : <code>
+Integer</code> -- <em>
+la cantidad de <a href="#GLO-0028" title="Cosa producida">producto</a>
+</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0153" />
+<b>asignaCantidad</b>: <br />
+<a name="POS-0154" />
+<b>PrecioTotal</b>: <br />
+<a name="POS-0155" />
+<b>CreaObjetoCodigo</b>: <br />
+<a name="POS-0156" />
+<b>ReferenciaNumeroPresupuesto</b>: <br />
+<a name="POS-0157" />
+<b>AsociaPresupuesto</b>: <br />
+<a name="POS-0158" />
+<b>AsociaLineaPresupuesto</b>: <br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>asignaCantidad</b>: Crear objeto de la clase Linea Presupuesto asignando Cantidad=vcantidad</code><br />
+<code><b>PrecioTotal</b>: PrecioTotal=vprecio</code><br />
+<code><b>CreaObjetoCodigo</b>: Crear objeto de la clase Producto asignando Codigo=vcodigo</code><br />
+<code><b>ReferenciaNumeroPresupuesto</b>: Crear objeto de la clase Presupuesto asignando Referencia=vnumeroPresupuesto</code><br />
+<code><b>AsociaPresupuesto</b>: Asociar al objeto Linea de Presupuesto el objeto de la clase Producto</code><br />
+<code><b>AsociaLineaPresupuesto</b>: Asociar al objeto Presupuesto el objeto Linea de Presupuesto</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0012" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0012</th>
+<th align="left" valign="top" width="100%">
+modificar presupuesto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 17/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0013" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0013</th>
+<th align="left" valign="top" width="100%">
+ObtenerCliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 17/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0006">
+Luis Toro Japón</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+obtiene los datos de un cliente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0159" />
+<code>
+vReferencia : <code>
+String</code> -- <em>
+indica la referencia</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0160" />
+<b>ExisteCliente</b>: 
+					<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ExisteCliente</b>: Existe un objeto de tipo Cliente cuya Referencia=vreferencia</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SOP-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0014</th>
+<th align="left" valign="top" width="100%">
+ObtenerPresupuesto</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 17/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Daniel García Howard</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+obtiene el <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0161" />
+<b>ExistePresupuesto</b>: 
+					<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ExistePresupuesto</b>: Existe un objeto de tipo presupuesto cuya Referencia=vreferencia</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0162" />
+<b>ObjetoLineaPresupuesto</b>: <br />
+<a name="POS-0163" />
+<b>ObjetoProducto</b>: <br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ObjetoLineaPresupuesto</b>: Del objeto de la clase Linea de Presupuesto devuelve Precio,Fecha,Fecha limite</code><br />
+<code><b>ObjetoProducto</b>: Del objeto de la clase Producto devuelve Cantidad,Descripcion,Codigo,Precio</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0047" />
 <h2 align="left">4.8 
-Operacion pedido proveedor</h2><a name="SEC-0027" />
+Operacion pedido proveedor</h2><a name="SOP-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0015</th>
+<th align="left" valign="top" width="100%">
+SolicitarProductosProveedor</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 17/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0001">
+Álvaro Segura Gómez</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+solicita productos al proveedor</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0164" />
+<code>
+vNombreProveedor : <code>
+String</code> -- <em><font color="red"><b>PD</b></font>
+</em></code><br />
+<a name="PAR-0165" />
+<code>
+vDescripcion : <code>
+String</code> -- <em>
+la descripcion del <a href="#GLO-0028" title="Cosa producida">producto</a>
+</em></code><br />
+<a name="PAR-0166" />
+<code>
+cantidad : <code>
+Integer</code> -- <em>
+indica la cantidad de productos</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">
+<a name="PRE-0167" />
+<b>ExisteProveedor</b>: 
+					<br />
+<a name="PRE-0168" />
+<b>ExistreProducto</b>: 
+					<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ExisteProveedor</b>: Existe un objeto de la clase Proveedor tal que su Nombre=vNombreProveedor</code><br />
+<code><b>ExistreProducto</b>: Existe un objeto de la clase Producto tal que su Descripcion=vDescripcion</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0027" />
 <h1 align="left">5 
 Prototipo de interfaz de usuario</h1><a name="GRF-0019" />
 <p align="center">
