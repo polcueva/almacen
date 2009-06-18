@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([PAR-0186] vDNI : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PAR-0200] vTeléfono : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
@@ -8,6 +35,15 @@
 <rem:day>19</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0022</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -2906,5 +2942,549 @@
 <rem:day>18</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0183] vNombre : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0022</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0005] Daniel García Howard]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SOP-0019]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([POS-0194] (sin nombre))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([PAR-0185] vDireccion : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([PAR-0188] vEmail : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([PAR-0191] vCP : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SOP-0019]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0048]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Operacion Dar de Alta Cleinte] -> [Operacion Dar de Alta Cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0048]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº7 actualizada: [Provincia del cliente
+] -> [Provincia del cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0050]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº11 ([POS-0195] comprobarDatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [DNI del Cliente
+] -> [DNI del Cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([PAR-0189] vProvincia : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0022</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Dar de Al] -> [Dar de Alta Cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [Da de Alta a un cliente.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0049</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0022] Dar de Al)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº13 ([PAR-0198] vDNI : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0048</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SOP-0019] AltaCliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0184] vApellido : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Apellidos del Cliente
+] -> [Apellidos del Cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PAR-0196] vNombre : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] del hijo nº10 actualizada: [(sin nombre)] -> [ExisteCliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0197] vDireccion : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([PAR-0190] vLocalidad : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº14 ([PAR-0199] vEmail : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº6 actualizada: [Email del Cliente
+] -> [Email del Cliente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([PAR-0187] vTeléfono : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([PAR-0197] vDireccion : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0050</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SOP-0020] CrearEmpleado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([PAR-0198] vDNI : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PAR-0199] vEmail : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([PAR-0199] vEmail : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([POS-0204] ExisteEmpleado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([PAR-0200] vTeléfono : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [DNI del Cliente] -> [DNI del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([PAR-0200] vTeléfono : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Apellidos del Cliente] -> [Apellidos del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [Email del Cliente] -> [Email del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº5 actualizada: [Número de teléfono del cliente.] -> [Número de teléfono del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Nombre del Cliente] -> [Nombre del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PAR-0198] vDNI : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0196] vNombre : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº12 ([PAR-0197] vDireccion : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0019</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([PAR-0196] vNombre : String)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([PAR-0201] vNumeroDeCuenta : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([PAR-0203] nSegSocial : Real)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([PAR-0202] vSueldo : Integer)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº6 actualizada: [Numero de la Cuenta del Empleado.] -> [Numero de la Cuenta Bancaria del Empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SOP-0020</rem:owner><rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([POS-0205] ComprobarDatos)]]></rem:description>
 </rem:change>
 </rem:log>

@@ -141,6 +141,13 @@ Actualizar Inventario</a>
 Consultar Existencias</a>
 </td>
 </tr>
+<tr><td />
+<td align="left" valign="top">3.10 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0049">
+Alta Cliente</a>
+</td>
+</tr>
 <tr>
 <th align="left" valign="top">4 </th>
 <th align="left" valign="top" width="100%" colspan="3">
@@ -202,6 +209,20 @@ Operacion modificar presupuesto</a>
 <td align="left" valign="top" width="100%" colspan="2">
 <a href="#SEC-0047">
 Operacion pedido proveedor</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">4.9 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0048">
+Operacion Dar de Alta Cliente</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">4.10 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0050">
+Operacion Dar de Alta Empleado</a>
 </td>
 </tr>
 <tr>
@@ -325,6 +346,16 @@ Consultar Existencias</h2><a name="GRF-0018" />
 <b>Figura 1</b>:
                 
 Consultar Existencias</p>
+<a name="SEC-0049" />
+<h2 align="left">3.10 
+Alta Cliente</h2><a name="GRF-0022" />
+<p align="center">
+<img src=".\Entregables\Diagramas\Diagramas de Secuencias\Diagrama secuencia dar de alta cliente.wmf" title=".\Entregables\Diagramas\Diagramas de Secuencias\Diagrama secuencia dar de alta cliente.wmf" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Dar de Alta Cliente</p>
 <a name="SEC-0026" />
 <h1 align="left">4 
 Modelo funcional del sistema</h1><a name="SEC-0040" />
@@ -429,6 +460,12 @@ Operacion comprobar factura</h2><a name="SOP-0002" />
 <th align="left" valign="top" width="100%">
 ComprobarFactura</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>factura
+
+</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -514,6 +551,10 @@ Operacion consultar existencias</h2><a name="SOP-0003" />
 <th align="left" valign="top">SOP-0003</th>
 <th align="left" valign="top" width="100%"> Producto A Consultar</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Integer cantidad Producto</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -678,6 +719,10 @@ Ninguno</td>
 <th align="left" valign="top" width="100%">
 obtener factura</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Del objeto de la clase Factura devuelve NumeroFactura,Fecha,Subtotal</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -758,6 +803,10 @@ Operacion hacer factura</h2><a name="SOP-0006" />
 <th align="left" valign="top" width="100%">
 Añadir Productos</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>De la clase factura nos devuelve Double subtotal.</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -861,6 +910,10 @@ Ninguno</td>
 <th align="left" valign="top" width="100%">
 creaFactura</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>numerofactura</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -1043,7 +1096,7 @@ HacerPago</th>
 </tr>
 <th align="left" valign="top">Tipo del resultado</th>
 <td align="left" valign="top">
-<code>Para realiza el pago</code>
+<code>Devuelve un Double cantidadDevolver.</code>
 </td>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1137,6 +1190,10 @@ Ninguno</td>
 <th align="left" valign="top" width="100%">
 ObtenerPresupuesto</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>De la clase Linea de Presupuesto nos devuelve los siguientes datos: 	Fecha, Fecha limite, Cantidad, Precio Total.</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -1217,6 +1274,10 @@ Operacion hacer presupuesto</h2><a name="SOP-0011" />
 <th align="left" valign="top" width="100%">
 AñadirProductos</th>
 </tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Se devuelve el valor del atributo Total,del objeto de la clase Presupuesto precisada en la precondicion</code>
+</td>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top">1.0 
@@ -1869,6 +1930,256 @@ Existe un objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
 <code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0048" />
+<h2 align="left">4.9 
+Operacion Dar de Alta Cliente</h2><a name="SOP-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0019</th>
+<th align="left" valign="top" width="100%">
+AltaCliente</th>
+</tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Identificador de cliente</code>
+</td>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Daniel García Howard</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Da de Alta a un cliente.</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0183" />
+<code>
+vNombre : <code>
+String</code> -- <em>
+Nombre del Cliente</em></code><br />
+<a name="PAR-0184" />
+<code>
+vApellido : <code>
+String</code> -- <em>
+Apellidos del Cliente</em></code><br />
+<a name="PAR-0185" />
+<code>
+vDireccion : <code>
+String</code> -- <em>
+Apellidos del Cliente</em></code><br />
+<a name="PAR-0186" />
+<code>
+vDNI : <code>
+String</code> -- <em>
+DNI del Cliente</em></code><br />
+<a name="PAR-0187" />
+<code>
+vTeléfono : <code>
+Integer</code> -- <em>
+Número de teléfono del cliente.</em></code><br />
+<a name="PAR-0188" />
+<code>
+vEmail : <code>
+String</code> -- <em>
+Email del Cliente</em></code><br />
+<a name="PAR-0189" />
+<code>
+vProvincia : <code>
+String</code> -- <em>
+Provincia del cliente</em></code><br />
+<a name="PAR-0190" />
+<code>
+vLocalidad : <code>
+String</code> -- <em>
+Localidad del Cliente.</em></code><br />
+<a name="PAR-0191" />
+<code>
+vCP : <code>
+Integer</code> -- <em>
+Código Postal del Cliente</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0194" />
+<b>ExisteCliente</b>: 
+Existe un objeto de la clase cliente<br />
+<a name="POS-0195" />
+<b>comprobarDatos</b>: 
+el Nombre=vnombre, el Apellido=vapellido,el Dni=vdni,el Telefono=vtelefono,el 
+<br />E-mail=vemail,la direccion=vdirección, la Provincia=vprovincia, la Localidad=vlocalidad,el CP=vCP
+<br />
+<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ExisteCliente</b>: true</code><br />
+<code><b>comprobarDatos</b>: true</code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0050" />
+<h2 align="left">4.10 
+Operacion Dar de Alta Empleado</h2><a name="SOP-0020" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">SOP-0020</th>
+<th align="left" valign="top" width="100%">
+CrearEmpleado</th>
+</tr>
+<th align="left" valign="top">Tipo del resultado</th>
+<td align="left" valign="top">
+<code>Identificador de empleado</code>
+</td>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 10/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<ul>
+<li>
+<a href="#STK-0005">
+Daniel García Howard</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+Da de alta un Empleado.</td>
+</tr>
+<tr>
+<th align="left" valign="top">Parámetros</th>
+<td align="left" valign="top">
+<a name="PAR-0196" />
+<code>
+vNombre : <code>
+String</code> -- <em>
+Nombre del Empleado.</em></code><br />
+<a name="PAR-0197" />
+<code>
+vDireccion : <code>
+String</code> -- <em>
+Apellidos del Empleado.</em></code><br />
+<a name="PAR-0198" />
+<code>
+vDNI : <code>
+String</code> -- <em>
+DNI del Empleado.</em></code><br />
+<a name="PAR-0199" />
+<code>
+vEmail : <code>
+String</code> -- <em>
+Email del Empleado.</em></code><br />
+<a name="PAR-0200" />
+<code>
+vTeléfono : <code>
+Integer</code> -- <em>
+Número de teléfono del Empleado.</em></code><br />
+<a name="PAR-0201" />
+<code>
+vNumeroDeCuenta : <code>
+Integer</code> -- <em>
+Numero de la Cuenta Bancaria del Empleado.</em></code><br />
+<a name="PAR-0202" />
+<code>
+vSueldo : <code>
+Integer</code> -- <em>
+Sueldo del Empleado.</em></code><br />
+<a name="PAR-0203" />
+<code>
+nSegSocial : <code>
+Real</code> -- <em>
+Numero de la Seguridad Social del Empleado.</em></code><br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de precondición (OCL)</th>
+<td align="left" valign="top">
+<code>true</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición</th>
+<td align="left" valign="top">
+<a name="POS-0204" />
+<b>ExisteEmpleado</b>: 
+Existe un objeto de la clase empleado<br />
+<a name="POS-0205" />
+<b>ComprobarDatos</b>: 
+el Nombre=vnombre, el Dni=vdni,el Telefono=vtelefono,el E-mail=vemail,el Numero de NumeroDeCuenta=v NumeroDeCuenta, la direccion=Dirección, el sueldo=Sueldo y el numero de la seguridad social=nºsegsocial
+<br />
+<br />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Expresiones de postcondición (OCL)</th>
+<td align="left" valign="top">
+<code><b>ExisteEmpleado</b>: true</code><br />
+<code><b>ComprobarDatos</b>: true</code><br />
 </td>
 </tr>
 <tr>
