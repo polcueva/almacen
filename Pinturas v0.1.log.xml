@@ -2863,105 +2863,6 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0149] referencia : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([PRE-0153] existreProducto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([POS-0155] asociaLineaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [PD] -> [indica el codigo del producto]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([PAR-0151] vCantidad : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0013</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0159] vReferencia : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([POS-0154] creaPresupuesto.)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0015</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2009</rem:year>
@@ -2971,336 +2872,39 @@
 <rem:description><![CDATA[Eliminado el objeto [SOP-0012]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0150] codigoProducto : Integer)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([PRE-0152] existePresupuesto)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0157] vReferencia : Integer)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2009</rem:year>
 <rem:month>6</rem:month>
 <rem:day>18</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([POS-0156] aso)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0011</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº8 actualizada: [aso] -> [asociaLineaProducto]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0017</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([POS-0158] existePresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0013</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0160] vCodigoCliente : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado autor [STK-0002] David Ruiz Enrique]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0012</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido autor [STK-0003] Juan José Alcazar Cobano]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SOP-0013</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0162] vCodigo : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº5 ([PRE-0165] CreaLineaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº1 actualizada: [vNumero] -> [vNumeroPresupuesto]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([PAR-0163] vPrecio : Real)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0161] vNumero : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([PRE-0165] CreaLineaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([PAR-0164] vCantidad : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº10 ([POS-0171] AsociaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([POS-0166] CreaLineaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([POS-0168] creaProducto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([POS-0169] creaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([PAR-0179] cantidad : Integer)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [PD] -> [indica la referencia del prodcu]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([PRE-0181] existeProducto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº9 ([POS-0170] asociaLineaPresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0014</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([POS-0167] PrecioTotal)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0172] vReferencia : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0016</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRE-0173] existeCliente)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([PRE-0180] existeProveedor)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0017</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0174] vReferencia : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0017</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRE-0175] existePresupuesto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] del hijo nº1 actualizada: [vNombre] -> [vNombreProveedor]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PAR-0177] vNombre : String)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SOP-0018</rem:owner><rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PAR-0178] vDescripcion : String)]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 </rem:log>

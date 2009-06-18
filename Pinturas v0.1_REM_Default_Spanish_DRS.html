@@ -390,13 +390,14 @@ Precio del <a href="#GLO-0028" title="Cosa producida">producto</a>
 <td align="left" valign="top">
 <a name="PRE-0109" />
 <b>existeProducto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a> tal que su Nombre=producto<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeProducto</b>: Existe un objeto de la clase Producto tal que su Nombre=producto</code><br />
+<code><b>existeProducto</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -478,13 +479,14 @@ Indica la fecha de realizacion de la <a href="#GLO-0004" title="Cuenta que los f
 <td align="left" valign="top">
 <a name="PRE-0111" />
 <b>comprobarFactura</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">Factura</a> tal que su Fecha=NumeroDeFecha y su Numero = 	NumeroFactura<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>comprobarFactura</b>: Existe un objeto de la clase Factura tal que su Fecha=NumeroDeFecha y su Numero = 	NumeroFactura</code><br />
+<code><b>comprobarFactura</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -555,13 +557,14 @@ indica el <a href="#GLO-0028" title="Cosa producida">producto</a> a consultar</e
 <td align="left" valign="top">
 <a name="PRE-0116" />
 <b>existeObjeto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a> tal que su Nombre=producto<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeObjeto</b>: Existe un objeto de la clase Producto tal que su Nombre=producto</code><br />
+<code><b>existeObjeto</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -637,26 +640,28 @@ la cantidad de productos</em></code><br />
 <td align="left" valign="top">
 <a name="PRE-0122" />
 <b>existeProducto</b>: 
-					<br />
+					
+Se ha asignado en el objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a>,Cantidad=Cantidad+cantidad<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeProducto</b>: Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad</code><br />
+<code><b>existeProducto</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0123" />
-<b>asignaObjeto</b>: <br />
+<b>asignaObjeto</b>: 
+Se ha asignado en el objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a>,Cantidad=Cantidad+cantidad<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>asignaObjeto</b>: Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad</code><br />
+<code><b>asignaObjeto</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -717,13 +722,14 @@ Identificador para la <a href="#GLO-0004" title="Cuenta que los factores dan del
 <td align="left" valign="top">
 <a name="PRE-0125" />
 <b>existeFactura</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">Factura</a> tal que su numeroFactura=referencia<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeFactura</b>: Existe un objeto de la clase Factura tal que su numeroFactura=referencia</code><br />
+<code><b>existeFactura</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -806,34 +812,39 @@ la cantidad de productos</em></code><br />
 <td align="left" valign="top">
 <a name="PRE-0129" />
 <b>existeFactura</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a> tal que su NumeroFactura=numeroFactura<br />
 <a name="PRE-0130" />
 <b>existeProducto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a> tal que CodigoProducto=codigoProducto<br />
 <a name="PRE-0131" />
 <b>quedanPorAñadir</b>: 
-					<br />
+					
+Quedan Productos por añadir<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeFactura</b>: Existe un objeto de la clase factura tal que su NumeroFactura=numeroFactura</code><br />
-<code><b>existeProducto</b>: Existe un objeto de la clase Producto tal que CodigoProducto=codigoProducto</code><br />
-<code><b>quedanPorAñadir</b>: Quedan Productos por añadir</code><br />
+<code><b>existeFactura</b>: </code><br />
+<code><b>existeProducto</b>: </code><br />
+<code><b>quedanPorAñadir</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0132" />
-<b>existeAsociacion</b>: <br />
+<b>existeAsociacion</b>: 
+Existe asociación entre <a href="#GLO-0028" title="Cosa producida">Producto</a> y <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">Factura</a>
+<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeAsociacion</b>: Existe asociación entre Producto y Factura</code><br />
+<code><b>existeAsociacion</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -884,8 +895,8 @@ creacion de una <a href="#GLO-0004" title="Cuenta que los factores dan del coste
 <a name="PAR-0133" />
 <code>
 Fecha : <code>
-Date</code> -- <em><font color="red"><b>PD</b></font>
-</em></code><br />
+Date</code> -- <em>
+Indica la fecha de creación de la <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>.</em></code><br />
 </td>
 </tr>
 <tr>
@@ -893,29 +904,33 @@ Date</code> -- <em><font color="red"><b>PD</b></font>
 <td align="left" valign="top">
 <a name="PRE-0134" />
 <b>existePresupuesto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> tal que Fecha=fecha<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existePresupuesto</b>: Existe un objeto de la clase Presupuesto tal que Fecha=fecha</code><br />
+<code><b>existePresupuesto</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0135" />
-<b>creaFactura</b>: <br />
+<b>creaFactura</b>: 
+Se crea un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>
+<br />
 <a name="POS-0136" />
-<b>generaNumeroFactura</b>: <br />
+<b>generaNumeroFactura</b>: 
+Se genera el Integer numerofactura<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>creaFactura</b>: Se crea un objeto de la clase factura</code><br />
-<code><b>generaNumeroFactura</b>: Se genera el Integer numerofactura</code><br />
+<code><b>creaFactura</b>: </code><br />
+<code><b>generaNumeroFactura</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -972,7 +987,8 @@ indica el numero de la <a href="#GLO-0004" title="Cuenta que los factores dan de
 <a name="PAR-0138" />
 <code>
 codigoCliente : <code>
-Integer</code> -- <em><font color="red"><b>PD</b></font>
+Integer</code> -- <em>
+Indica el codigo de un cliente a relacionar con una <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>
 </em></code><br />
 </td>
 </tr>
@@ -981,30 +997,34 @@ Integer</code> -- <em><font color="red"><b>PD</b></font>
 <td align="left" valign="top">
 <a name="PRE-0139" />
 <b>existeFactura</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a> tal que su NumeroFactura=numeroFactura<br />
 <a name="PRE-0140" />
 <b>existeCliente</b>: 
-					<br />
+					
+Existe un objeto de la clase Cliente tal que su CodigoCliente=codigoCliente<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeFactura</b>: Existe un objeto de la clase factura tal que su NumeroFactura=numeroFactura</code><br />
-<code><b>existeCliente</b>: Existe un objeto de la clase Cliente tal que su CodigoCliente=codigoCliente</code><br />
+<code><b>existeFactura</b>: </code><br />
+<code><b>existeCliente</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0141" />
-<b>existeRelacionClienteFactura</b>: <br />
+<b>existeRelacionClienteFactura</b>: 
+Existe una relación entre cliente y <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">factura</a>
+<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeRelacionClienteFactura</b>: Existe una relación entre cliente y factura</code><br />
+<code><b>existeRelacionClienteFactura</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -1074,30 +1094,33 @@ la cantidad del cliente</em></code><br />
 <td align="left" valign="top">
 <a name="PRE-0144" />
 <b>existeFactura</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0004" title="Cuenta que los factores dan del coste y costas de las mercancías que compran y remiten a sus corresponsales">Factura</a> tal que su NumeroFactura=numeroFactura<br />
 <a name="PRE-0145" />
 <b>cantidadCliente</b>: 
-					<br />
+					
+La cantidadCliente debe ser &gt;= a subtotal<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existeFactura</b>: Existe un objeto de la clase Factura tal que su NumeroFactura=numeroFactura</code><br />
-<code><b>cantidadCliente</b>: La cantidadCliente debe ser &gt;= a subtotal</code><br />
+<code><b>existeFactura</b>: </code><br />
+<code><b>cantidadCliente</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0146" />
-<b>cantidadDevolver</b>: <br />
+<b>cantidadDevolver</b>: 
+cantidadDevolver debe ser &lt; que cantidadCliente<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>cantidadDevolver</b>: cantidadDevolver debe ser &lt; que cantidadCliente</code><br />
+<code><b>cantidadDevolver</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -1158,13 +1181,14 @@ indica la referencia del <a href="#GLO-0003" title="Cómputo anticipado del coste
 <td align="left" valign="top">
 <a name="PRE-0148" />
 <b>existePresupuesto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> tal que su 	Referencia=referencia<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existePresupuesto</b>: Existe un objeto de la clase Presupuesto tal que su 	Referencia=referencia</code><br />
+<code><b>existePresupuesto</b>: </code><br />
 </td>
 </tr>
 <tr>
@@ -1247,36 +1271,41 @@ indica la cantidad de productos</em></code><br />
 <td align="left" valign="top">
 <a name="PRE-0152" />
 <b>existePresupuesto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">presupuesto</a> tal que su Referencia=referencia<br />
 <a name="PRE-0153" />
 <b>existreProducto</b>: 
-					<br />
+					
+Existe un objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a> tal que CodigoProducto=codigoProducto<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de precondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>existePresupuesto</b>: Existe un objeto de la clase presupuesto tal que su Referencia=referencia</code><br />
-<code><b>existreProducto</b>: Existe un objeto de la clase Producto tal que CodigoProducto=codigoProducto</code><br />
+<code><b>existePresupuesto</b>: </code><br />
+<code><b>existreProducto</b>: </code><br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición</th>
 <td align="left" valign="top">
 <a name="POS-0154" />
-<b>creaPresupuesto.</b>: <br />
+<b>creaPresupuesto.</b>: 
+Se crea el objeto de la clase Linea de <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> y se le asigna el parametro VCantidad al atributo Cantidad<br />
 <a name="POS-0155" />
-<b>asociaLineaPresupuesto</b>: <br />
+<b>asociaLineaPresupuesto</b>: 
+Se ha asociado el objeto creado de la clase Linea de <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> con el objeto de la clase <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> precisado en la precondicion<br />
 <a name="POS-0156" />
-<b>asociaLineaProducto</b>: <br />
+<b>asociaLineaProducto</b>: 
+Se ha asociado el objeto creado de la clase Linea de <a href="#GLO-0003" title="Cómputo anticipado del coste de una obra o de los gastos y rentas de una corporación">Presupuesto</a> con el objeto de la clase <a href="#GLO-0028" title="Cosa producida">Producto</a> precisado en la precondicion<br />
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Expresiones de postcondición (OCL)</th>
 <td align="left" valign="top">
-<code><b>creaPresupuesto.</b>: Se crea el objeto de la clase Linea de Presupuesto y se le asigna el parametro VCantidad al atributo Cantidad</code><br />
-<code><b>asociaLineaPresupuesto</b>: Se ha asociado el objeto creado de la clase Linea de Presupuesto con el objeto de la clase Presupuesto precisado en la precondicion</code><br />
-<code><b>asociaLineaProducto</b>: Se ha asociado el objeto creado de la clase Linea de Presupuesto con el objeto de la clase Producto precisado en la precondicion</code><br />
+<code><b>creaPresupuesto.</b>: </code><br />
+<code><b>asociaLineaPresupuesto</b>: </code><br />
+<code><b>asociaLineaProducto</b>: </code><br />
 </td>
 </tr>
 <tr>

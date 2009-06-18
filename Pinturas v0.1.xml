@@ -3871,8 +3871,8 @@ Ninguno</rem:comments>
 <rem:name>existeProducto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que su Nombre=producto]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref> tal que su Nombre=producto</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3944,8 +3944,8 @@ Ninguno</rem:comments>
 <rem:name>comprobarFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Factura tal que su Fecha=NumeroDeFecha y su Numero = 	NumeroFactura]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0004">Factura</rem:ref> tal que su Fecha=NumeroDeFecha y su Numero = 	NumeroFactura</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3999,8 +3999,8 @@ Ninguno</rem:comments>
 <rem:name>existeObjeto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que su Nombre=producto]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref> tal que su Nombre=producto</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4062,8 +4062,8 @@ Ninguno</rem:comments>
 <rem:name>existeProducto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad]]></rem:ocl>
+Se ha asignado en el objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref>,Cantidad=Cantidad+cantidad</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4072,8 +4072,8 @@ Ninguno</rem:comments>
 <rem:name>asignaObjeto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se ha asignado en el objeto de la clase Producto,Cantidad=Cantidad+cantidad]]></rem:ocl>
+Se ha asignado en el objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref>,Cantidad=Cantidad+cantidad</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4109,8 +4109,8 @@ Ninguno</rem:comments>
 <rem:name>existeFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Factura tal que su numeroFactura=referencia]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0004">Factura</rem:ref> tal que su numeroFactura=referencia</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4180,8 +4180,8 @@ Ninguno</rem:comments>
 <rem:name>existeFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase factura tal que su NumeroFactura=numeroFactura]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0004">factura</rem:ref> tal que su NumeroFactura=numeroFactura</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4190,8 +4190,8 @@ Ninguno</rem:comments>
 <rem:name>existeProducto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que CodigoProducto=codigoProducto]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref> tal que CodigoProducto=codigoProducto</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4200,8 +4200,8 @@ Ninguno</rem:comments>
 <rem:name>quedanPorAñadir</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Quedan Productos por añadir]]></rem:ocl>
+Quedan Productos por añadir</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4210,8 +4210,8 @@ Ninguno</rem:comments>
 <rem:name>existeAsociacion</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe asociación entre Producto y Factura]]></rem:ocl>
+Existe asociación entre <rem:ref oid="GLO-0028">Producto</rem:ref> y <rem:ref oid="GLO-0004">Factura</rem:ref></rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4239,7 +4239,7 @@ creacion de una <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
 <rem:name>
 Fecha</rem:name>
 <rem:description>
-<rem:tbd/></rem:description>
+Indica la fecha de creación de la <rem:ref oid="GLO-0004">factura</rem:ref>.</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4247,8 +4247,8 @@ Ninguno</rem:comments>
 <rem:name>existePresupuesto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Presupuesto tal que Fecha=fecha]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0003">Presupuesto</rem:ref> tal que Fecha=fecha</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4257,8 +4257,8 @@ Ninguno</rem:comments>
 <rem:name>creaFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se crea un objeto de la clase factura]]></rem:ocl>
+Se crea un objeto de la clase <rem:ref oid="GLO-0004">factura</rem:ref></rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4267,8 +4267,8 @@ Ninguno</rem:comments>
 <rem:name>generaNumeroFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se genera el Integer numerofactura]]></rem:ocl>
+Se genera el Integer numerofactura</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4304,7 +4304,7 @@ Ninguno</rem:comments>
 <rem:name>
 codigoCliente</rem:name>
 <rem:description>
-<rem:tbd/></rem:description>
+Indica el codigo de un cliente a relacionar con una <rem:ref oid="GLO-0004">factura</rem:ref></rem:description>
 <rem:comments>
 indica el codigo del cliente</rem:comments>
 </rem:parameter>
@@ -4312,8 +4312,8 @@ indica el codigo del cliente</rem:comments>
 <rem:name>existeFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase factura tal que su NumeroFactura=numeroFactura]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0004">factura</rem:ref> tal que su NumeroFactura=numeroFactura</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4322,8 +4322,8 @@ Ninguno</rem:comments>
 <rem:name>existeCliente</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Cliente tal que su CodigoCliente=codigoCliente]]></rem:ocl>
+Existe un objeto de la clase Cliente tal que su CodigoCliente=codigoCliente</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4332,8 +4332,8 @@ Ninguno</rem:comments>
 <rem:name>existeRelacionClienteFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe una relación entre cliente y factura]]></rem:ocl>
+Existe una relación entre cliente y <rem:ref oid="GLO-0004">factura</rem:ref></rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4378,8 +4378,8 @@ Ninguno</rem:comments>
 <rem:name>existeFactura</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Factura tal que su NumeroFactura=numeroFactura]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0004">Factura</rem:ref> tal que su NumeroFactura=numeroFactura</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4388,8 +4388,8 @@ Ninguno</rem:comments>
 <rem:name>cantidadCliente</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[La cantidadCliente debe ser >= a subtotal]]></rem:ocl>
+La cantidadCliente debe ser &gt;= a subtotal</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4398,8 +4398,8 @@ Ninguno</rem:comments>
 <rem:name>cantidadDevolver</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[cantidadDevolver debe ser < que cantidadCliente]]></rem:ocl>
+cantidadDevolver debe ser &lt; que cantidadCliente</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4435,8 +4435,8 @@ la referencia del <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:comments>
 <rem:name>existePresupuesto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Presupuesto tal que su 	Referencia=referencia]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0003">Presupuesto</rem:ref> tal que su 	Referencia=referencia</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4507,8 +4507,8 @@ Ninguno</rem:comments>
 <rem:name>existePresupuesto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase presupuesto tal que su Referencia=referencia]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0003">presupuesto</rem:ref> tal que su Referencia=referencia</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4517,8 +4517,8 @@ Ninguno</rem:comments>
 <rem:name>existreProducto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Existe un objeto de la clase Producto tal que CodigoProducto=codigoProducto]]></rem:ocl>
+Existe un objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref> tal que CodigoProducto=codigoProducto</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4527,8 +4527,8 @@ Ninguno</rem:comments>
 <rem:name>creaPresupuesto.</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se crea el objeto de la clase Linea de Presupuesto y se le asigna el parametro VCantidad al atributo Cantidad]]></rem:ocl>
+Se crea el objeto de la clase Linea de <rem:ref oid="GLO-0003">Presupuesto</rem:ref> y se le asigna el parametro VCantidad al atributo Cantidad</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4537,8 +4537,8 @@ Ninguno</rem:comments>
 <rem:name>asociaLineaPresupuesto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se ha asociado el objeto creado de la clase Linea de Presupuesto con el objeto de la clase Presupuesto precisado en la precondicion]]></rem:ocl>
+Se ha asociado el objeto creado de la clase Linea de <rem:ref oid="GLO-0003">Presupuesto</rem:ref> con el objeto de la clase <rem:ref oid="GLO-0003">Presupuesto</rem:ref> precisado en la precondicion</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4547,8 +4547,8 @@ Ninguno</rem:comments>
 <rem:name>asociaLineaProducto</rem:name>
 <rem:expression>
 <rem:natural>
-</rem:natural>
-<rem:ocl><![CDATA[Se ha asociado el objeto creado de la clase Linea de Presupuesto con el objeto de la clase Producto precisado en la precondicion]]></rem:ocl>
+Se ha asociado el objeto creado de la clase Linea de <rem:ref oid="GLO-0003">Presupuesto</rem:ref> con el objeto de la clase <rem:ref oid="GLO-0028">Producto</rem:ref> precisado en la precondicion</rem:natural>
+<rem:ocl><![CDATA[]]></rem:ocl>
 </rem:expression>
 <rem:comments>
 Ninguno</rem:comments>
