@@ -3399,16 +3399,6 @@ Daniel García Howard</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#IRQ-0009" title="Linea de factura">
-                                [IRQ-0009] 
-Linea de factura</a>
-</li>
-<li>
-<a href="#IRQ-0010" title="Linea de presupuesto">
-                                [IRQ-0010] 
-Linea de presupuesto</a>
-</li>
-<li>
 <a href="#OBJ-0001" title="Controlar stock de almacén">
                                 [OBJ-0001] 
 Controlar stock de almacén</a>
@@ -3422,6 +3412,16 @@ Gestionar la venta de pinturas</a>
 <a href="#IRQ-0003" title="Información sobre productos">
                                 [IRQ-0003] 
 Información sobre productos</a>
+</li>
+<li>
+<a href="#IRQ-0009" title="Linea de factura">
+                                [IRQ-0009] 
+Linea de factura</a>
+</li>
+<li>
+<a href="#IRQ-0010" title="Linea de presupuesto">
+                                [IRQ-0010] 
+Linea de presupuesto</a>
 </li>
 </td>
 </tr>
@@ -3785,6 +3785,167 @@ veces por
 <tr>
 <th align="left" valign="top">Urgencia</th>
 <td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">pendiente de verificación</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">media</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0011</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Dar de alta empleado</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 19/06/2009 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0003">
+Juan José Alcazar Cobano</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#IRQ-0002" title="Información sobre clientes">
+                                [IRQ-0002] 
+Información sobre clientes</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+se da de alta a un nuevo empleado</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0206" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al empleado de la tienda">
+Empleado (ACT-0001)
+    </a>
+<em>
+solicita al sistema dar de alta un nuevo empleado</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0207" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+pide los datos del empleado(Nombre,Apellidos,Email, numero de cuenta, numero de Seg.Social,sueldo,Dni,Direccion, telefono)</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0208" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al empleado de la tienda">
+Empleado (ACT-0001)
+    </a>
+<em>
+rellena los campos solicitados con la informacion solicitada</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0209" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+guarda la informacion del empleado</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+El cliente queda registrado satisfactoriamente en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+5
+veces por
+                         
+                        segundo(s)</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
@@ -4187,6 +4348,11 @@ David Ruiz Enrique</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
+<a href="#OBJ-0004" title="Gestionar la venta de pinturas">
+                                [OBJ-0004] 
+Gestionar la venta de pinturas</a>
+</li>
+<li>
 <a href="#IRQ-0006" title="Información sobre presupuestos">
                                 [IRQ-0006] 
 Información sobre presupuestos</a>
@@ -4195,11 +4361,6 @@ Información sobre presupuestos</a>
 <a href="#IRQ-0010" title="Linea de presupuesto">
                                 [IRQ-0010] 
 Linea de presupuesto</a>
-</li>
-<li>
-<a href="#OBJ-0004" title="Gestionar la venta de pinturas">
-                                [OBJ-0004] 
-Gestionar la venta de pinturas</a>
 </li>
 </td>
 </tr>
@@ -5419,6 +5580,50 @@ Requisitos de informacion</p>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0011" title="Dar de alta empleado">UC-0011</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
 </tr>
 </table>
 <p align="center">
