@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "D:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Pinturas v0</rem:name>
@@ -126,11 +126,12 @@ Andaluza de <rem:ref oid="GLO-0025">Pinturas</rem:ref> S.A.</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:address><rem:tbd/></rem:address>
-<rem:telephone><rem:tbd/></rem:telephone>
-<rem:fax><rem:tbd/></rem:fax>
+<rem:address>Avenida de los Gavilanes 56-A, CP 41006 Sevilla</rem:address>
+<rem:telephone>954643057</rem:telephone>
+<rem:fax>955157585</rem:fax>
 </rem:organization>
 </rem:section>
 <rem:section
@@ -705,13 +706,13 @@ Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0096">
 <rem:description>
-Seg. Social</rem:description>
+Numero de la Seg. Social</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
 <rem:specificData oid = "DAT-0097">
 <rem:description>
-Identificador</rem:description>
+Referencia</rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:specificData>
@@ -3278,6 +3279,69 @@ Documentación aportada</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>A </rem:number>
+<rem:graphicFile
+ oid = "GRF-0023">
+<rem:name>
+Fachada</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Documentacion Extra\fachada.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0024">
+<rem:name>
+Tarjeta Visita</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Documentacion Extra\tarjeta andaluza.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:graphicFile
+ oid = "GRF-0025">
+<rem:name>
+<rem:ref oid="GLO-0004">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2009</rem:year>
+<rem:month>6</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Entregables\Documentacion Extra\factura andaluza.jpg]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
@@ -4349,6 +4413,7 @@ CreaRelacionClienteFactura</rem:name>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4417,7 +4482,7 @@ HacerPago</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-<rem:tbd/></rem:description>
+realiza el pago</rem:description>
 <rem:resultType>Devuelve un Double cantidadDevolver.</rem:resultType>
 <rem:parameter oid = "PAR-0142" baseType = "PVT-0002">
 <rem:name>
@@ -4668,6 +4733,8 @@ creaRelacionCliente</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0003 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4720,6 +4787,8 @@ añadirLineaDePresupuesto</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
@@ -4736,7 +4805,7 @@ Ninguno</rem:comments>
 <rem:name>
 vCodigo</rem:name>
 <rem:description>
-<rem:tbd/></rem:description>
+indica el codigo del <rem:ref oid="GLO-0028">producto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4818,24 +4887,6 @@ Ninguno</rem:comments>
 </rem:postconditionExpression>
 </rem:systemOperation>
 <rem:systemOperation
- oid = "SOP-0015">
-<rem:name>
-modificarPresupuesto</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-<rem:tbd/></rem:description>
-</rem:systemOperation>
-<rem:systemOperation
  oid = "SOP-0016">
 <rem:name>
 obternerCliente</rem:name>
@@ -4848,10 +4899,12 @@ obternerCliente</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-<rem:tbd/></rem:description>
+obtiene los datos del cliente</rem:description>
 <rem:resultType>Del objeto de la clase Cliente devuelve Nombre,DNI,Telefono,Direccion,E-mail,C.P. Provincia,Localidad,Codigo</rem:resultType>
 <rem:parameter oid = "PAR-0172" baseType = "PVT-0004">
 <rem:name>
@@ -4885,6 +4938,7 @@ ObtenerPresupuesto</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4896,7 +4950,7 @@ Del objeto de la clase Producto devuelve Cantidad,Descripcion,Codigo,Precio</rem
 <rem:name>
 vReferencia</rem:name>
 <rem:description>
-<rem:tbd/></rem:description>
+indica la referencia del <rem:ref oid="GLO-0003">presupuesto</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:parameter>
@@ -4942,6 +4996,7 @@ SolicitarProductosProveedor</rem:name>
 <rem:day>18</rem:day>
 </rem:date>
 </rem:version>
+<rem:authors stakeholders ="STK-0002 "/>
 <rem:sources stakeholders ="STK-0007 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4952,7 +5007,7 @@ solicita productos al proveedor</rem:description>
 <rem:name>
 vNombreProveedor</rem:name>
 <rem:description>
-<rem:tbd/></rem:description>
+indica el nombre del proveedor</rem:description>
 <rem:comments>
 el nombre del proveedor</rem:comments>
 </rem:parameter>
