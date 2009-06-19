@@ -2594,13 +2594,13 @@ Ninguno</rem:comments>
 <rem:th oid ="IRQ-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0002"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
@@ -2872,40 +2872,6 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-</rem:traceabilityMatrix>
-<rem:traceabilityMatrix
- oid = "TRM-0003">
-<rem:name>
-Requisitos no funcionales</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>19</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:tr>
-<rem:th/>
-<rem:th oid ="OBJ-0001"/>
-<rem:th oid ="OBJ-0003"/>
-<rem:th oid ="OBJ-0004"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0001"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="NFR-0002"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5627,6 +5593,12 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0011"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
