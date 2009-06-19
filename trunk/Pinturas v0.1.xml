@@ -2557,7 +2557,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-El sistema será compatible en principio con la versiones de 32 y 64 bits de windows 95 o superior.</rem:description>
+ser compatible en principio con la versiones de 32 y 64 bits de windows 95 o superior.</rem:description>
 </rem:nonFunctionalRequirement>
 <rem:nonFunctionalRequirement
  oid = "NFR-0002">
@@ -2581,7 +2581,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-Cada empleado dispondrá de su clave de acceso privada.</rem:description>
+facilitar que cada empleado disponga de su clave de acceso privada.</rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 </rem:section>
@@ -2700,7 +2700,7 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0002"/>
@@ -2711,17 +2711,17 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0003"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0004"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 </rem:tr>
 </rem:traceabilityMatrix>
 <rem:traceabilityMatrix
@@ -2894,7 +2894,7 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0009"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2914,7 +2914,7 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -5548,6 +5548,24 @@ Ninguno
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0010"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
