@@ -2448,7 +2448,7 @@ Se permite la venta al público general.</rem:description>
 <rem:constraintRequirement
  oid = "CRQ-0002">
 <rem:name>
-Resticción de trabajos de pintura</rem:name>
+Restricción de trabajos de pintura</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
