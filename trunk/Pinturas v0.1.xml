@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
+<!DOCTYPE rem:requirementsProject SYSTEM "D:\Archivos de programa\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Pinturas v0</rem:name>
@@ -498,62 +498,6 @@ Ninguno</rem:comments>
 </rem:fileName>
 </rem:graphicFile>
 </rem:section>
-<rem:section
- oid = "SEC-0015">
-<rem:name>
-Envío de pintores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:level>2</rem:level>
-<rem:number>3.4 </rem:number>
-<rem:paragraph
- oid = "PRG-0023">
-<rem:name>
-</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>6</rem:month>
-<rem:day>16</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text>ENVIO DE PINTORES:<br/><br/>1)Un cliente solicita un <rem:ref oid="GLO-0003">presupuesto</rem:ref> para un trabajo de pintores.<br/><br/>2)El empleado genera dicho <rem:ref oid="GLO-0003">presupuesto</rem:ref> y lo envía al cliente para su revisión y decidir si aceptarlo o no. En caso de no ser aceptado, envía las modificaciones requeridas.<br/><br/>3)El empleado genera un nuevo <rem:ref oid="GLO-0003">presupuesto</rem:ref> y se lo envía nuevamente al cliente para su estudio.<br/><br/>4)Una vez confirmado, envía una confirmacion al empleado.<br/><br/>5)La <rem:ref oid="GLO-0029">cuadrilla</rem:ref> es enviada para realizar su trabajo.</rem:text>
-</rem:paragraph>
-<rem:graphicFile
- oid = "GRF-0004">
-<rem:name>
-</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\Entregables\BPM\Envio de pintores 2002.wmf]]>
-</rem:fileName>
-</rem:graphicFile>
-</rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0006">
@@ -596,30 +540,6 @@ Ninguno</rem:comments>
 <rem:stability value = "SBV-0002"/>
 <rem:description>
 Llevar una control exhaustivo del almacén para informatizar el proceso ya que si no, a mano resulta largo y tedioso,  se aumentaría la seguridad del mismo controlando de forma mas precisa el <rem:ref oid="GLO-0007">stock</rem:ref>.</rem:description>
-</rem:objective>
-<rem:objective
- oid = "OBJ-0002">
-<rem:name>
-Gestionar el envío de pintores</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 STK-0005 STK-0006 "/>
-<rem:sources stakeholders ="STK-0007 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
-<rem:stability value = "SBV-0002"/>
-<rem:description>
-Controlar el envío de la <rem:ref oid="GLO-0029">cuadrilla</rem:ref> de pintores, indicando donde deben realizar el trabajo, que tipo de trabajo, y cuanto material van a necesitar. Incluyendo los gastos por transportes y dietas, para una mayor gestión.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0003">
@@ -2446,30 +2366,6 @@ Ninguno</rem:comments>
 Se permite la venta al público general.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
- oid = "CRQ-0002">
-<rem:name>
-Restricción de trabajos de pintura</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2009</rem:year>
-<rem:month>5</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0003 "/>
-<rem:sources stakeholders ="STK-0007 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0003"/>
-<rem:stability value = "SBV-0004"/>
-<rem:description>
-Sólo se permiten trabajos  de pintura a empresas y corporativos.</rem:description>
-</rem:constraintRequirement>
-<rem:constraintRequirement
  oid = "CRQ-0003">
 <rem:name>
 Restricción <rem:ref oid="GLO-0028">producto</rem:ref> descatalogado</rem:name>
@@ -2621,13 +2517,11 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th/>
 <rem:th oid ="OBJ-0001"/>
-<rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
 <rem:th oid ="OBJ-0004"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0001"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2637,25 +2531,21 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0003"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0004"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0005"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -2664,12 +2554,10 @@ Ninguno</rem:comments>
 <rem:th oid ="IRQ-0006"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0007"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -2678,12 +2566,10 @@ Ninguno</rem:comments>
 <rem:th oid ="IRQ-0008"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="IRQ-0009"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -2692,33 +2578,22 @@ Ninguno</rem:comments>
 <rem:th oid ="IRQ-0010"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0001"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
-</rem:tr>
-<rem:tr>
-<rem:th oid ="CRQ-0002"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0003"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="CRQ-0004"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -2742,7 +2617,6 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th/>
 <rem:th oid ="OBJ-0001"/>
-<rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
 <rem:th oid ="OBJ-0004"/>
 <rem:th oid ="IRQ-0001"/>
@@ -2759,7 +2633,6 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th oid ="UC-0001"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -2775,7 +2648,6 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0002"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2805,12 +2677,10 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0004"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -2826,7 +2696,6 @@ Ninguno</rem:comments>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0005"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2856,11 +2725,9 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0007"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
@@ -2878,7 +2745,6 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th oid ="UC-0008"/>
 <rem:td mark ="yes"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
 <rem:td mark ="no"/>
@@ -2907,11 +2773,9 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="UC-0010"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="yes"/>
@@ -2945,7 +2809,6 @@ Ninguno</rem:comments>
 <rem:tr>
 <rem:th/>
 <rem:th oid ="OBJ-0001"/>
-<rem:th oid ="OBJ-0002"/>
 <rem:th oid ="OBJ-0003"/>
 <rem:th oid ="OBJ-0004"/>
 </rem:tr>
@@ -2954,11 +2817,9 @@ Ninguno</rem:comments>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
-<rem:td mark ="no"/>
 </rem:tr>
 <rem:tr>
 <rem:th oid ="NFR-0002"/>
-<rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
 <rem:td mark ="no"/>
